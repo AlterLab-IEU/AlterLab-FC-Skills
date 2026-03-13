@@ -1,0 +1,27 @@
+{
+  "name": "alterlab-fc-skills",
+  "version": "1.0.0",
+  "description": "36 Claude AI skills for Faculty of Communication students — PRA, CDM, NMC departments",
+  "author": "Cem Ipek <cem.ipek@ieu.edu.tr>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlterLab-IEU/AlterLab_Fc.git"
+  },
+  "keywords": [
+    "claude-ai",
+    "skills",
+    "communication",
+    "public-relations",
+    "advertising",
+    "cinema",
+    "digital-media",
+    "new-media",
+    "alterlab",
+    "nexus"
+  ],
+  "scripts": {
+    "validate": "echo 'Checking skills...' && find skills -name 'SKILL.md' | wc -l",
+    "list": "find skills -name 'SKILL.md' -exec echo {} \\;"
+  }
+}
