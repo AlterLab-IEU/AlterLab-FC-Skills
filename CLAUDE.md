@@ -1,6 +1,6 @@
 # AlterLab FC Skills — Claude Code Project Instructions
 
-> **Project**: AlterLab FC Skills — 36 Claude AI skills for Faculty of Communication students
+> **Project**: AlterLab FC Skills — 48 Claude AI skills for Faculty of Communication students
 > **Owner**: AlterLab Creative Technologies Laboratory
 > **Repo**: AlterLab-IEU/AlterLab_Fc
 
@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-This project generates **36 professional Claude AI skills** organized into 3 department packs for communication faculty students worldwide. Each skill transforms Claude into a domain-specific expert assistant tailored to real coursework, creative production, and professional workflows in communication disciplines.
+This project generates **48 professional Claude AI skills** organized into 4 department packs for communication faculty students worldwide. Each skill transforms Claude into a domain-specific expert assistant tailored to real coursework, creative production, and professional workflows in communication disciplines.
 
 ### Department Packs
 
@@ -17,6 +17,7 @@ This project generates **36 professional Claude AI skills** organized into 3 dep
 | **PRA** — Public Relations & Advertising | `skills/pra/` | PR, advertising, marketing communication | 12 |
 | **CDM** — Cinema & Digital Media | `skills/cdm/` | Film, animation, digital media production | 12 |
 | **NMC** — New Media & Communication | `skills/nmc/` | New media, journalism, multimedia | 12 |
+| **GenAI** — Generative AI Production | `skills/genai/` | Higgsfield, ElevenLabs, Suno workflows | 12 |
 
 ### Key Principles
 - **UNIVERSAL**: No university-specific references. These skills work for ANY communication student globally.
@@ -33,37 +34,32 @@ This project generates **36 professional Claude AI skills** organized into 3 dep
 AlterLab_Fc/
 ├── CLAUDE.md                    # This file — project instructions
 ├── README.md                    # Public-facing repo documentation
+├── CONTRIBUTING.md              # Contributing guide
 ├── package.json                 # Project metadata
-├── INSTALL.bat                  # Windows installer for Claude Projects
-├── install.sh                   # Unix installer
-├── SKILL_TEMPLATE.md            # Reference template for skill format
-├── SKILL_REGISTRY.md            # Full registry of all 36 skills
 └── skills/
-    ├── pra/                     # Public Relations & Advertising
-    │   ├── alterlab-pra-campaign-strategist/
+    ├── pra/                     # Public Relations & Advertising (12 skills)
+    │   ├── fc-pra-campaign-strategist/
     │   │   └── SKILL.md
-    │   ├── alterlab-pra-copywriter/
+    │   └── ...
+    ├── cdm/                     # Cinema & Digital Media (12 skills)
+    │   ├── fc-cdm-screenwriter/
     │   │   └── SKILL.md
-    │   └── ... (12 skills total)
-    ├── cdm/                     # Cinema & Digital Media
-    │   ├── alterlab-cdm-screenwriter/
+    │   └── ...
+    ├── nmc/                     # New Media & Communication (12 skills)
+    │   ├── fc-nmc-podcast-producer/
     │   │   └── SKILL.md
-    │   ├── alterlab-cdm-preproduction/
-    │   │   └── SKILL.md
-    │   └── ... (12 skills total)
-    └── nmc/                     # New Media & Communication
-        ├── alterlab-nmc-podcast-producer/
+    │   └── ...
+    └── genai/                   # Generative AI Production (12 skills)
+        ├── fc-genai-text-to-image/
         │   └── SKILL.md
-        ├── alterlab-nmc-data-journalist/
-        │   └── SKILL.md
-        └── ... (12 skills total)
+        └── ...
 ```
 
-Each skill lives in its own folder (`alterlab-{dept}-{name}/SKILL.md`) following the AlterLab NEXUS convention.
+Each skill lives in its own folder (`fc-{dept}-{name}/SKILL.md`) following the AlterLab NEXUS convention.
 
 ### Naming Convention
-- **Folder**: `alterlab-{dept}-{skill-name}` (lowercase, hyphenated)
-- **Frontmatter name**: `"alterlab-{dept}-{skill-name}"`
+- **Folder**: `fc-{dept}-{skill-name}` (lowercase, hyphenated)
+- **Frontmatter name**: `"fc-{dept}-{skill-name}"`
 - **Collection label**: `Part of the AlterLab FC Skills collection ({Department} department).`
 
 ---
@@ -74,7 +70,7 @@ Every SKILL.md MUST follow this exact structure. Do NOT deviate.
 
 ```markdown
 ---
-name: "alterlab-{dept}-{skill-name}"
+name: "fc-{dept}-{skill-name}"
 description: >
   This skill should be used when the user asks about "{trigger phrase 1}", "{trigger phrase 2}",
   "{trigger phrase 3}", "act as {role}", "{role} mode",
@@ -211,58 +207,75 @@ You are **{AgentName}**, {one-sentence role description that establishes experti
 
 ---
 
-## The 36 Skills — Full Registry
+## The 48 Skills — Full Registry
 
 ### PRA Department (Public Relations & Advertising) — 12 Skills
 
 | # | Skill Name | Agent Name | Core Domain |
 |---|-----------|------------|-------------|
-| 1 | `alterlab-pra-campaign-strategist` | CampaignStrategist | IMC campaign planning, strategic briefs, ROSTIR model, campaign architecture |
-| 2 | `alterlab-pra-copywriter` | AdCopywriter | Advertising copy — headlines, slogans, body copy, scripts, AIDA framework |
-| 3 | `alterlab-pra-brand-analyst` | BrandAnalyst | Brand audits, competitive intelligence, positioning, Keller CBBE, Aaker model |
-| 4 | `alterlab-pra-consumer-insight` | ConsumerInsightResearcher | Audience research, personas, surveys, focus groups, customer journey mapping |
-| 5 | `alterlab-pra-media-planner` | MediaPlanner | Media strategy, channel selection, budget allocation, CPM/GRP, flighting |
-| 6 | `alterlab-pra-pr-writer` | PRWriter | Press releases, media kits, crisis comms, speeches, corporate communications |
-| 7 | `alterlab-pra-social-content` | SocialContentCreator | Content calendars, platform-native posts, hashtag strategy, Reels/TikTok scripts |
-| 8 | `alterlab-pra-pitch-builder` | PitchDeckBuilder | Client pitches, agency credentials, competition entries, presentation structure |
-| 9 | `alterlab-pra-csr-designer` | CSRCampaignDesigner | Social responsibility campaigns, cause marketing, theory of change, impact measurement |
-| 10 | `alterlab-pra-market-research` | MarketResearchAnalyst | Market analysis, PESTEL, trend reports, competitive landscape, data interpretation |
-| 11 | `alterlab-pra-creative-brief` | CreativeBriefWriter | One-page creative briefs, communication briefs, single-minded propositions |
-| 12 | `alterlab-pra-report-generator` | CampaignReportGenerator | Performance reports, KPI dashboards, evaluation frameworks, Barcelona Principles |
+| 1 | `fc-pra-campaign-strategist` | CampaignStrategist | IMC campaign planning, strategic briefs, ROSTIR model, campaign architecture |
+| 2 | `fc-pra-copywriter` | AdCopywriter | Advertising copy — headlines, slogans, body copy, scripts, AIDA framework |
+| 3 | `fc-pra-brand-analyst` | BrandAnalyst | Brand audits, competitive intelligence, positioning, Keller CBBE, Aaker model |
+| 4 | `fc-pra-consumer-insight` | ConsumerInsightResearcher | Audience research, personas, surveys, focus groups, customer journey mapping |
+| 5 | `fc-pra-media-planner` | MediaPlanner | Media strategy, channel selection, budget allocation, CPM/GRP, flighting |
+| 6 | `fc-pra-pr-writer` | PRWriter | Press releases, media kits, crisis comms, speeches, corporate communications |
+| 7 | `fc-pra-social-content` | SocialContentCreator | Content calendars, platform-native posts, hashtag strategy, Reels/TikTok scripts |
+| 8 | `fc-pra-pitch-builder` | PitchDeckBuilder | Client pitches, agency credentials, competition entries, presentation structure |
+| 9 | `fc-pra-csr-designer` | CSRCampaignDesigner | Social responsibility campaigns, cause marketing, theory of change, impact measurement |
+| 10 | `fc-pra-market-research` | MarketResearchAnalyst | Market analysis, PESTEL, trend reports, competitive landscape, data interpretation |
+| 11 | `fc-pra-creative-brief` | CreativeBriefWriter | One-page creative briefs, communication briefs, single-minded propositions |
+| 12 | `fc-pra-report-generator` | CampaignReportGenerator | Performance reports, KPI dashboards, evaluation frameworks, Barcelona Principles |
 
 ### CDM Department (Cinema & Digital Media) — 12 Skills
 
 | # | Skill Name | Agent Name | Core Domain |
 |---|-----------|------------|-------------|
-| 1 | `alterlab-cdm-screenwriter` | ScreenwriterAssistant | Screenplay development, dialogue, structure, formatting, short film scripts |
-| 2 | `alterlab-cdm-preproduction` | PreProductionPlanner | Shot lists, storyboards, breakdowns, shooting schedules, call sheets |
-| 3 | `alterlab-cdm-film-analysis` | FilmAnalysisCompanion | Film essays, formal analysis, theory application, sequence analysis |
-| 4 | `alterlab-cdm-documentary-research` | DocumentaryResearcher | Archival research, interview prep, documentary treatments, ethical frameworks |
-| 5 | `alterlab-cdm-postproduction` | PostProductionGuide | Editing strategy, color grading, sound post, DaVinci Resolve workflows, delivery |
-| 6 | `alterlab-cdm-festival-strategy` | FestivalStrategyWriter | Loglines, synopses, director statements, festival circuit planning, submission materials |
-| 7 | `alterlab-cdm-vfx-pipeline` | VFXPipelineGuide | Compositing workflows, effect planning, Nuke/After Effects, CGI integration |
-| 8 | `alterlab-cdm-sound-designer` | SoundDesignPlanner | Sound maps, foley planning, music supervision, spatial audio, mixing strategies |
-| 9 | `alterlab-cdm-film-pitch` | FilmPitchDeveloper | Treatments, pitch packages, lookbooks, mood boards, funding proposals |
-| 10 | `alterlab-cdm-subtitle-loc` | SubtitleLocalizationExpert | SRT/VTT creation, subtitle timing, translation adaptation, accessibility |
-| 11 | `alterlab-cdm-animation-previz` | AnimationPreVizDesigner | Storyboards, animatic planning, character design briefs, motion planning |
-| 12 | `alterlab-cdm-production-manager` | ProductionManager | Budgets, scheduling, crew management, location logistics, risk mitigation |
+| 1 | `fc-cdm-screenwriter` | ScreenwriterAssistant | Screenplay development, dialogue, structure, formatting, short film scripts |
+| 2 | `fc-cdm-preproduction` | PreProductionPlanner | Shot lists, storyboards, breakdowns, shooting schedules, call sheets |
+| 3 | `fc-cdm-film-analysis` | FilmAnalysisCompanion | Film essays, formal analysis, theory application, sequence analysis |
+| 4 | `fc-cdm-documentary-research` | DocumentaryResearcher | Archival research, interview prep, documentary treatments, ethical frameworks |
+| 5 | `fc-cdm-postproduction` | PostProductionGuide | Editing strategy, color grading, sound post, DaVinci Resolve workflows, delivery |
+| 6 | `fc-cdm-festival-strategy` | FestivalStrategyWriter | Loglines, synopses, director statements, festival circuit planning, submission materials |
+| 7 | `fc-cdm-vfx-pipeline` | VFXPipelineGuide | Compositing workflows, effect planning, Nuke/After Effects, CGI integration |
+| 8 | `fc-cdm-sound-designer` | SoundDesignPlanner | Sound maps, foley planning, music supervision, spatial audio, mixing strategies |
+| 9 | `fc-cdm-film-pitch` | FilmPitchDeveloper | Treatments, pitch packages, lookbooks, mood boards, funding proposals |
+| 10 | `fc-cdm-subtitle-loc` | SubtitleLocalizationExpert | SRT/VTT creation, subtitle timing, translation adaptation, accessibility |
+| 11 | `fc-cdm-animation-previz` | AnimationPreVizDesigner | Storyboards, animatic planning, character design briefs, motion planning |
+| 12 | `fc-cdm-production-manager` | ProductionManager | Budgets, scheduling, crew management, location logistics, risk mitigation |
 
 ### NMC Department (New Media & Communication) — 12 Skills
 
 | # | Skill Name | Agent Name | Core Domain |
 |---|-----------|------------|-------------|
-| 1 | `alterlab-nmc-podcast-producer` | PodcastProducer | Episode planning, scripts, show notes, audio editing guides, distribution strategy |
-| 2 | `alterlab-nmc-data-journalist` | DataJournalist | Data visualization, data storytelling, FOIA/RTI, spreadsheet analysis, chart design |
-| 3 | `alterlab-nmc-multimedia-story` | MultimediaStoryBuilder | Cross-platform narratives, longform web features, interactive storytelling |
-| 4 | `alterlab-nmc-social-analyst` | SocialMediaAnalyst | Platform analytics, strategy reports, audience insights, competitive benchmarking |
-| 5 | `alterlab-nmc-portfolio-curator` | DigitalPortfolioCurator | Portfolio architecture, project descriptions, case studies, professional presentation |
-| 6 | `alterlab-nmc-web-strategist` | WebContentStrategist | Content architecture, SEO writing, UX writing, information architecture |
-| 7 | `alterlab-nmc-video-essay` | VideoEssayCreator | Visual essays, narration scripts, essay film structure, argument-driven editing |
-| 8 | `alterlab-nmc-digital-ethics` | DigitalEthicsAdvisor | Media ethics, AI ethics, platform governance, misinformation analysis |
-| 9 | `alterlab-nmc-community-manager` | CommunityManager | Engagement strategy, moderation, growth hacking, community health metrics |
-| 10 | `alterlab-nmc-newsletter` | NewsletterDesigner | Email content strategy, newsletter structure, subject lines, CTA optimization |
-| 11 | `alterlab-nmc-media-theory` | MediaTheoryCompanion | Academic writing, theory frameworks, Foucault, Habermas, McLuhan, critical analysis |
-| 12 | `alterlab-nmc-digital-campaign` | DigitalCampaignPlanner | Social impact campaigns, digital activism, civic tech, awareness-to-action funnels |
+| 1 | `fc-nmc-podcast-producer` | PodcastProducer | Episode planning, scripts, show notes, audio editing guides, distribution strategy |
+| 2 | `fc-nmc-data-journalist` | DataJournalist | Data visualization, data storytelling, FOIA/RTI, spreadsheet analysis, chart design |
+| 3 | `fc-nmc-multimedia-story` | MultimediaStoryBuilder | Cross-platform narratives, longform web features, interactive storytelling |
+| 4 | `fc-nmc-social-analyst` | SocialMediaAnalyst | Platform analytics, strategy reports, audience insights, competitive benchmarking |
+| 5 | `fc-nmc-portfolio-curator` | DigitalPortfolioCurator | Portfolio architecture, project descriptions, case studies, professional presentation |
+| 6 | `fc-nmc-web-strategist` | WebContentStrategist | Content architecture, SEO writing, UX writing, information architecture |
+| 7 | `fc-nmc-video-essay` | VideoEssayCreator | Visual essays, narration scripts, essay film structure, argument-driven editing |
+| 8 | `fc-nmc-digital-ethics` | DigitalEthicsAdvisor | Media ethics, AI ethics, platform governance, misinformation analysis |
+| 9 | `fc-nmc-community-manager` | CommunityManager | Engagement strategy, moderation, growth hacking, community health metrics |
+| 10 | `fc-nmc-newsletter` | NewsletterDesigner | Email content strategy, newsletter structure, subject lines, CTA optimization |
+| 11 | `fc-nmc-media-theory` | MediaTheoryCompanion | Academic writing, theory frameworks, Foucault, Habermas, McLuhan, critical analysis |
+| 12 | `fc-nmc-digital-campaign` | DigitalCampaignPlanner | Social impact campaigns, digital activism, civic tech, awareness-to-action funnels |
+
+### GenAI Pack — Generative AI Production (12 Skills)
+
+| # | Skill Name | Agent Name | Platform | Core Domain |
+|---|-----------|------------|----------|-------------|
+| 1 | `fc-genai-text-to-image` | TextToImageCreator | Higgsfield | Nano Banana Pro, KLING, Soul Cinema, prompt engineering |
+| 2 | `fc-genai-image-to-video` | ImageToVideoDirector | Higgsfield | Still-to-motion, Soul ID, multi-shot storytelling |
+| 3 | `fc-genai-camera-director` | AICameraDirector | Higgsfield | 50+ camera presets, Cinema Studio, cinematic grammar |
+| 4 | `fc-genai-motion-designer` | AIMotionDesigner | Higgsfield | VFX, style transfer, transitions, Canvas, Draw-to-Video |
+| 5 | `fc-genai-talking-head` | AITalkingHeadCreator | Higgsfield | UGC Builder, Lipsync Studio, Speak, selfie-to-video |
+| 6 | `fc-genai-voice-designer` | AIVoiceDesigner | ElevenLabs | Eleven v3, audio tags, voice library, dialogue mode |
+| 7 | `fc-genai-voice-cloner` | AIVoiceCloner | ElevenLabs | Instant + professional cloning, multilingual, ethics |
+| 8 | `fc-genai-dubbing-specialist` | AIDubbingSpecialist | ElevenLabs | Dubbing Studio, 29 languages, speaker detection |
+| 9 | `fc-genai-sound-effects` | AISoundEffectsDesigner | ElevenLabs | Text-to-SFX, foley, ambience, soundscapes |
+| 10 | `fc-genai-audio-producer` | AIAudioProducer | ElevenLabs | Voice isolator, Studio editor, end-to-end pipeline |
+| 11 | `fc-genai-music-producer` | AIMusicProducer | Suno | Songs, lyrics, genre prompting, stems, covers |
+| 12 | `fc-genai-soundtrack-composer` | AISoundtrackCompocer | Suno | Instrumentals, film scoring, ambient, mood composition |
 
 ---
 
@@ -272,15 +285,15 @@ When asked to generate skills, follow this exact process:
 
 ### Step 1: Create Directory Structure
 ```bash
-mkdir -p skills/pra skills/cdm skills/nmc
-for dept in pra cdm nmc; do
+mkdir -p skills/pra skills/cdm skills/nmc skills/genai
+for dept in pra cdm nmc genai; do
   # Create each skill folder from the registry
 done
 ```
 
 ### Step 2: Generate Each Skill
 For each skill in the registry above:
-1. Create the folder: `skills/{dept}/alterlab-{dept}-{name}/`
+1. Create the folder: `skills/{dept}/fc-{dept}-{name}/`
 2. Write `SKILL.md` following the MANDATORY TEMPLATE exactly
 3. Ensure the skill is **150-300 lines**, **production-ready**, and **universally applicable**
 4. Include **real industry frameworks**, **real output templates**, and **real workflow steps**
@@ -294,9 +307,9 @@ When generating, produce skills in batches of 6 (one department at a time, split
 - Verify line count is 150-300
 
 ### Step 4: Quality Checks
-After all 36 skills are generated:
+After all 48 skills are generated:
 1. Run a line count check: `wc -l skills/*/*/SKILL.md`
-2. Verify all 36 folders exist: `ls skills/*/` 
+2. Verify all 48 folders exist: `find skills -name "SKILL.md" | wc -l`
 3. Grep for university-specific references (should find NONE): `grep -ri "ieu\|izmir\|ekonomi" skills/`
 4. Verify frontmatter: `head -8 skills/*/*/SKILL.md`
 
@@ -316,14 +329,17 @@ Common Claude Code commands for this project:
 # Generate all NMC skills
 "Generate all 12 NMC department skills following the CLAUDE.md template and registry"
 
+# Generate all GenAI skills
+"Generate all 12 GenAI department skills following the CLAUDE.md template and registry"
+
 # Generate everything
-"Generate all 36 FC skills — all departments, full production"
+"Generate all 48 FC skills — all departments, full production"
 
 # Validate
 "Run quality checks on all generated skills"
 
 # Single skill
-"Generate the alterlab-cdm-screenwriter skill"
+"Generate the fc-cdm-screenwriter skill"
 ```
 
 ---
@@ -333,7 +349,7 @@ Common Claude Code commands for this project:
 ```bash
 git init
 git add .
-git commit -m "feat: initialize AlterLab FC Skills — 36 skills for communication students"
+git commit -m "feat: initialize AlterLab FC Skills — 48 skills for communication students"
 git remote add origin https://github.com/AlterLab-IEU/AlterLab_Fc.git
 git branch -M main
 git push -u origin main

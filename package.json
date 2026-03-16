@@ -1,7 +1,7 @@
 {
   "name": "alterlab-fc-skills",
   "version": "1.0.0",
-  "description": "36 Claude AI skills for Faculty of Communication students — PRA, CDM, NMC departments",
+  "description": "48 Claude AI skills for Faculty of Communication students — PRA, CDM, NMC, GenAI departments",
   "author": "Cem Ipek <cem.ipek@ieu.edu.tr>",
   "license": "MIT",
   "repository": {
@@ -17,11 +17,15 @@
     "cinema",
     "digital-media",
     "new-media",
+    "generative-ai",
+    "higgsfield",
+    "elevenlabs",
+    "suno",
     "alterlab",
     "nexus"
   ],
   "scripts": {
-    "validate": "echo 'Checking skills...' && find skills -name 'SKILL.md' | wc -l",
-    "list": "find skills -name 'SKILL.md' -exec echo {} \\;"
+    "validate": "echo 'Checking skills (expect 48)...' && find skills -name 'SKILL.md' | wc -l",
+    "list": "find skills -name 'SKILL.md' | sort"
   }
 }
