@@ -1,13 +1,13 @@
 # AlterLab FC Skills
 
-> **36 Claude AI skills for Faculty of Communication students**
+> **48 Claude AI skills for Faculty of Communication students**
 > Built by [AlterLab](https://github.com/AlterLab-IEU) — Creative Technologies Laboratory
 
 ---
 
 ## What Is This?
 
-A collection of **36 purpose-built Claude AI skills** for communication students — covering Public Relations & Advertising, Cinema & Digital Media, and New Media & Communication. Each skill transforms Claude into a domain-specific expert assistant for your coursework, creative projects, and professional development.
+A collection of **48 purpose-built Claude AI skills** for communication students — covering Public Relations & Advertising, Cinema & Digital Media, New Media & Communication, and Generative AI Production. Each skill transforms Claude into a domain-specific expert assistant for your coursework, creative projects, and professional development.
 
 **Not tied to any specific university.** These skills work for any communication student, anywhere.
 
@@ -23,6 +23,14 @@ Screenwriting, pre-production planning, film analysis, documentary research, pos
 
 ### 🌐 NMC — New Media & Communication (12 Skills)
 Podcast production, data journalism, multimedia storytelling, social media analytics, portfolio curation, web content strategy, video essays, digital ethics, community management, newsletter design, media theory, and digital campaigns.
+
+### 🤖 GenAI — Generative AI Production (12 Skills)
+
+| Tool | Skills | Coverage |
+|------|--------|----------|
+| **Higgsfield** | 5 | Text-to-image, image-to-video, camera direction, motion design, talking heads |
+| **ElevenLabs** | 5 | Voice design, voice cloning, dubbing, SFX, audio production |
+| **Suno** | 2 | Music production, soundtrack composition |
 
 ---
 
@@ -114,6 +122,26 @@ Browse the `skills/` folder and download only the ones you need. Every skill is 
 
 </details>
 
+<details>
+<summary>🤖 GenAI Skills (click to expand)</summary>
+
+| Skill | Platform | What It Does |
+|-------|----------|-------------|
+| Text-to-Image Creator | Higgsfield | Nano Banana Pro, KLING, Soul Cinema, prompt engineering, Soul ID |
+| Image-to-Video Director | Higgsfield | Still-to-motion, camera motion, multi-shot storytelling |
+| AI Camera Director | Higgsfield | 50+ camera presets, Cinema Studio, cinematic grammar |
+| AI Motion Designer | Higgsfield | VFX, style transfer, transitions, Canvas, Draw-to-Video |
+| AI Talking Head Creator | Higgsfield | UGC Builder, Lipsync Studio, selfie-to-video |
+| AI Voice Designer | ElevenLabs | Eleven v3, audio tags, voice library, dialogue mode |
+| AI Voice Cloner | ElevenLabs | Instant + professional cloning, multilingual, ethics |
+| AI Dubbing Specialist | ElevenLabs | Dubbing Studio, 29 languages, speaker detection |
+| AI Sound Effects Designer | ElevenLabs | Text-to-SFX, foley, ambience, soundscapes |
+| AI Audio Producer | ElevenLabs | Voice isolator, Studio editor, end-to-end pipeline |
+| AI Music Producer | Suno | Songs, lyrics, genre prompting, stems, covers |
+| AI Soundtrack Composer | Suno | Instrumentals, film scoring, ambient, mood composition |
+
+</details>
+
 ---
 
 ## How Skills Work
@@ -133,8 +161,8 @@ PRs welcome. To improve a skill:
 
 ```bash
 git checkout -b improve/cdm-screenwriter
-# Edit skills/cdm/fc-cdm-screenwriter/SKILL.md
-git commit -m "improve: fc-cdm-screenwriter — better dialogue coaching"
+# Edit skills/cdm/alterlab-cdm-screenwriter/SKILL.md
+git commit -m "improve: alterlab-cdm-screenwriter — better dialogue coaching"
 git push origin improve/cdm-screenwriter
 ```
 

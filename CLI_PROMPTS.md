@@ -19,9 +19,9 @@ CRITICAL RULES:
 - Every skill needs: 3+ mission areas, 3+ output formats with concrete templates, 5 example use cases
 
 GENERATION ORDER:
-1. First generate all 12 PRA skills (skills/pra/fc-pra-*/SKILL.md)
-2. Then all 12 CDM skills (skills/cdm/fc-cdm-*/SKILL.md)
-3. Then all 12 NMC skills (skills/nmc/fc-nmc-*/SKILL.md)
+1. First generate all 12 PRA skills (skills/pra/alterlab-pra-*/SKILL.md)
+2. Then all 12 CDM skills (skills/cdm/alterlab-cdm-*/SKILL.md)
+3. Then all 12 NMC skills (skills/nmc/alterlab-nmc-*/SKILL.md)
 
 For each skill, read the registry entry in CLAUDE.md for the agent name and core domain, then write a complete SKILL.md following the template. Write the file directly — do not ask for confirmation between skills.
 
@@ -42,21 +42,21 @@ If the single prompt hits context limits, use these three separate prompts:
 ### PROMPT 2A — PRA Department Only
 
 ```
-Read CLAUDE.md and SKILL_TEMPLATE.md. Generate all 12 PRA department skills. Each skill replaces the placeholder in skills/pra/fc-pra-*/SKILL.md.
+Read CLAUDE.md and SKILL_TEMPLATE.md. Generate all 12 PRA department skills. Each skill replaces the placeholder in skills/pra/alterlab-pra-*/SKILL.md.
 
 The 12 PRA skills from the registry:
-1. fc-pra-campaign-strategist — CampaignStrategist — IMC campaign planning, strategic briefs, ROSTIR model
-2. fc-pra-copywriter — AdCopywriter — Headlines, slogans, body copy, scripts, AIDA framework
-3. fc-pra-brand-analyst — BrandAnalyst — Brand audits, competitive intelligence, positioning, Keller CBBE
-4. fc-pra-consumer-insight — ConsumerInsightResearcher — Personas, surveys, focus groups, journey mapping
-5. fc-pra-media-planner — MediaPlanner — Channel strategy, budget allocation, CPM/GRP, flighting
-6. fc-pra-pr-writer — PRWriter — Press releases, media kits, crisis comms, speeches
-7. fc-pra-social-content — SocialContentCreator — Content calendars, platform-native posts, hashtag strategy
-8. fc-pra-pitch-builder — PitchDeckBuilder — Client pitches, agency credentials, competition entries
-9. fc-pra-csr-designer — CSRCampaignDesigner — Social responsibility campaigns, cause marketing, impact measurement
-10. fc-pra-market-research — MarketResearchAnalyst — PESTEL, trend reports, competitive landscape
-11. fc-pra-creative-brief — CreativeBriefWriter — One-page creative briefs, single-minded propositions
-12. fc-pra-report-generator — CampaignReportGenerator — Performance reports, KPI dashboards, Barcelona Principles
+1. alterlab-pra-campaign-strategist — CampaignStrategist — IMC campaign planning, strategic briefs, ROSTIR model
+2. alterlab-pra-copywriter — AdCopywriter — Headlines, slogans, body copy, scripts, AIDA framework
+3. alterlab-pra-brand-analyst — BrandAnalyst — Brand audits, competitive intelligence, positioning, Keller CBBE
+4. alterlab-pra-consumer-insight — ConsumerInsightResearcher — Personas, surveys, focus groups, journey mapping
+5. alterlab-pra-media-planner — MediaPlanner — Channel strategy, budget allocation, CPM/GRP, flighting
+6. alterlab-pra-pr-writer — PRWriter — Press releases, media kits, crisis comms, speeches
+7. alterlab-pra-social-content — SocialContentCreator — Content calendars, platform-native posts, hashtag strategy
+8. alterlab-pra-pitch-builder — PitchDeckBuilder — Client pitches, agency credentials, competition entries
+9. alterlab-pra-csr-designer — CSRCampaignDesigner — Social responsibility campaigns, cause marketing, impact measurement
+10. alterlab-pra-market-research — MarketResearchAnalyst — PESTEL, trend reports, competitive landscape
+11. alterlab-pra-creative-brief — CreativeBriefWriter — One-page creative briefs, single-minded propositions
+12. alterlab-pra-report-generator — CampaignReportGenerator — Performance reports, KPI dashboards, Barcelona Principles
 
 Rules: Follow SKILL_TEMPLATE.md exactly. 150-300 lines each. No university references. Real industry frameworks. Write all 12 without stopping. Validate line counts after.
 ```
@@ -64,21 +64,21 @@ Rules: Follow SKILL_TEMPLATE.md exactly. 150-300 lines each. No university refer
 ### PROMPT 2B — CDM Department Only
 
 ```
-Read CLAUDE.md and SKILL_TEMPLATE.md. Generate all 12 CDM department skills. Each skill replaces the placeholder in skills/cdm/fc-cdm-*/SKILL.md.
+Read CLAUDE.md and SKILL_TEMPLATE.md. Generate all 12 CDM department skills. Each skill replaces the placeholder in skills/cdm/alterlab-cdm-*/SKILL.md.
 
 The 12 CDM skills from the registry:
-1. fc-cdm-screenwriter — ScreenwriterAssistant — Screenplay development, dialogue, structure, formatting
-2. fc-cdm-preproduction — PreProductionPlanner — Shot lists, storyboards, breakdowns, shooting schedules
-3. fc-cdm-film-analysis — FilmAnalysisCompanion — Film essays, formal analysis, theory application
-4. fc-cdm-documentary-research — DocumentaryResearcher — Archival research, interview prep, treatments
-5. fc-cdm-postproduction — PostProductionGuide — Editing strategy, color grading, sound post, delivery
-6. fc-cdm-festival-strategy — FestivalStrategyWriter — Loglines, synopses, director statements, festival planning
-7. fc-cdm-vfx-pipeline — VFXPipelineGuide — Compositing workflows, Nuke/After Effects, CGI integration
-8. fc-cdm-sound-designer — SoundDesignPlanner — Sound maps, foley, music supervision, spatial audio
-9. fc-cdm-film-pitch — FilmPitchDeveloper — Treatments, lookbooks, mood boards, funding proposals
-10. fc-cdm-subtitle-loc — SubtitleLocalizationExpert — SRT/VTT creation, timing, translation, accessibility
-11. fc-cdm-animation-previz — AnimationPreVizDesigner — Storyboards, animatics, character design briefs
-12. fc-cdm-production-manager — ProductionManager — Budgets, scheduling, crew management, risk mitigation
+1. alterlab-cdm-screenwriter — ScreenwriterAssistant — Screenplay development, dialogue, structure, formatting
+2. alterlab-cdm-preproduction — PreProductionPlanner — Shot lists, storyboards, breakdowns, shooting schedules
+3. alterlab-cdm-film-analysis — FilmAnalysisCompanion — Film essays, formal analysis, theory application
+4. alterlab-cdm-documentary-research — DocumentaryResearcher — Archival research, interview prep, treatments
+5. alterlab-cdm-postproduction — PostProductionGuide — Editing strategy, color grading, sound post, delivery
+6. alterlab-cdm-festival-strategy — FestivalStrategyWriter — Loglines, synopses, director statements, festival planning
+7. alterlab-cdm-vfx-pipeline — VFXPipelineGuide — Compositing workflows, Nuke/After Effects, CGI integration
+8. alterlab-cdm-sound-designer — SoundDesignPlanner — Sound maps, foley, music supervision, spatial audio
+9. alterlab-cdm-film-pitch — FilmPitchDeveloper — Treatments, lookbooks, mood boards, funding proposals
+10. alterlab-cdm-subtitle-loc — SubtitleLocalizationExpert — SRT/VTT creation, timing, translation, accessibility
+11. alterlab-cdm-animation-previz — AnimationPreVizDesigner — Storyboards, animatics, character design briefs
+12. alterlab-cdm-production-manager — ProductionManager — Budgets, scheduling, crew management, risk mitigation
 
 Rules: Follow SKILL_TEMPLATE.md exactly. 150-300 lines each. No university references. Real cinema/film industry terminology and workflows. Write all 12 without stopping. Validate after.
 ```
@@ -86,21 +86,21 @@ Rules: Follow SKILL_TEMPLATE.md exactly. 150-300 lines each. No university refer
 ### PROMPT 2C — NMC Department Only
 
 ```
-Read CLAUDE.md and SKILL_TEMPLATE.md. Generate all 12 NMC department skills. Each skill replaces the placeholder in skills/nmc/fc-nmc-*/SKILL.md.
+Read CLAUDE.md and SKILL_TEMPLATE.md. Generate all 12 NMC department skills. Each skill replaces the placeholder in skills/nmc/alterlab-nmc-*/SKILL.md.
 
 The 12 NMC skills from the registry:
-1. fc-nmc-podcast-producer — PodcastProducer — Episode planning, scripts, show notes, distribution
-2. fc-nmc-data-journalist — DataJournalist — Data visualization, data storytelling, spreadsheet analysis
-3. fc-nmc-multimedia-story — MultimediaStoryBuilder — Cross-platform narratives, longform web features
-4. fc-nmc-social-analyst — SocialMediaAnalyst — Platform analytics, strategy reports, audience insights
-5. fc-nmc-portfolio-curator — DigitalPortfolioCurator — Portfolio architecture, case studies, presentation
-6. fc-nmc-web-strategist — WebContentStrategist — SEO, UX writing, content architecture
-7. fc-nmc-video-essay — VideoEssayCreator — Visual essays, narration scripts, argument-driven editing
-8. fc-nmc-digital-ethics — DigitalEthicsAdvisor — Media ethics, AI ethics, misinformation analysis
-9. fc-nmc-community-manager — CommunityManager — Engagement strategy, moderation, community health
-10. fc-nmc-newsletter — NewsletterDesigner — Email content strategy, subject lines, CTA optimization
-11. fc-nmc-media-theory — MediaTheoryCompanion — Academic writing, Foucault, Habermas, McLuhan, critical analysis
-12. fc-nmc-digital-campaign — DigitalCampaignPlanner — Social impact campaigns, digital activism, civic tech
+1. alterlab-nmc-podcast-producer — PodcastProducer — Episode planning, scripts, show notes, distribution
+2. alterlab-nmc-data-journalist — DataJournalist — Data visualization, data storytelling, spreadsheet analysis
+3. alterlab-nmc-multimedia-story — MultimediaStoryBuilder — Cross-platform narratives, longform web features
+4. alterlab-nmc-social-analyst — SocialMediaAnalyst — Platform analytics, strategy reports, audience insights
+5. alterlab-nmc-portfolio-curator — DigitalPortfolioCurator — Portfolio architecture, case studies, presentation
+6. alterlab-nmc-web-strategist — WebContentStrategist — SEO, UX writing, content architecture
+7. alterlab-nmc-video-essay — VideoEssayCreator — Visual essays, narration scripts, argument-driven editing
+8. alterlab-nmc-digital-ethics — DigitalEthicsAdvisor — Media ethics, AI ethics, misinformation analysis
+9. alterlab-nmc-community-manager — CommunityManager — Engagement strategy, moderation, community health
+10. alterlab-nmc-newsletter — NewsletterDesigner — Email content strategy, subject lines, CTA optimization
+11. alterlab-nmc-media-theory — MediaTheoryCompanion — Academic writing, Foucault, Habermas, McLuhan, critical analysis
+12. alterlab-nmc-digital-campaign — DigitalCampaignPlanner — Social impact campaigns, digital activism, civic tech
 
 Rules: Follow SKILL_TEMPLATE.md exactly. 150-300 lines each. No university references. Real new media/journalism frameworks. Write all 12 without stopping. Validate after.
 ```

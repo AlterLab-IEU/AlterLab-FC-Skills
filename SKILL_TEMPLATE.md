@@ -8,7 +8,7 @@
 
 ```markdown
 ---
-name: "fc-{dept}-{skill-name}"
+name: "alterlab-{dept}-{skill-name}"
 description: >
   This skill should be used when the user asks about "{keyword 1}", "{keyword 2}",
   "{keyword 3}", "act as {role name}", "{role name} mode", "help with {domain}",
