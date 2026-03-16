@@ -64,16 +64,7 @@ A collection of **48 purpose-built Claude AI skills** for communication students
 | 🎯 **PRA** — Public Relations & Advertising | 12 | Campaign strategy, copywriting, brand analysis, media planning, PR writing, consumer insight research, social content creation, pitch decks, CSR campaigns, market research, creative briefs, campaign reporting |
 | 🎬 **CDM** — Cinema & Digital Media | 12 | Screenwriting, pre-production planning, film analysis, documentary research, post-production, festival submissions, VFX pipeline, sound design, film pitching, subtitles & localization, animation pre-viz, production management |
 | 🌐 **NMC** — New Media & Communication | 12 | Podcast production, data journalism, multimedia storytelling, social media analytics, portfolio curation, web content strategy, video essays, digital ethics, community management, newsletter design, media theory, digital campaigns |
-| 🧠 **GenAI** — Generative AI Production | 12 | See breakdown below ⬇️ |
-
-
-### GenAI Tool Breakdown
-
-| Tool | Skills | Coverage |
-|:-----|:------:|:---------|
-| **Higgsfield** | 5 | Text-to-image, image-to-video, camera direction, motion design, talking heads |
-| **ElevenLabs** | 5 | Voice design, voice cloning, dubbing, SFX, audio production |
-| **Suno** | 2 | Music production, soundtrack composition |
+| 🧠 **GenAI** — Generative AI Production | 12 | Text-to-image, image-to-video, camera direction, motion design, talking heads, voice design, voice cloning, dubbing, SFX, audio production, music production, soundtrack composition |
 
 
 ---
