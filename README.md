@@ -122,8 +122,8 @@ A collection of **48 purpose-built Claude AI skills** for communication students
 
 
 ```bash
-git clone https://github.com/AlterLab-IEU/Alterlab_fc.git
-cd Alterlab_fc
+git clone https://github.com/AlterLab-IEU/AlterLab-FC-Skills.git
+cd AlterLab-FC-Skills
 claude "act as my screenwriter assistant and help me develop a short film concept"
 ```
 
