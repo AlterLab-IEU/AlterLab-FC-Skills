@@ -141,7 +141,7 @@ Browse the `skills/` folder and download only the ones you need. Every skill is 
 | `alterlab-genai-sound-effects` | AISoundEffectsDesigner | ElevenLabs | Text-to-SFX, foley, soundscapes |
 | `alterlab-genai-audio-producer` | AIAudioProducer | ElevenLabs | Voice isolator, end-to-end pipeline |
 | `alterlab-genai-music-producer` | AIMusicProducer | Suno | Songs, lyrics, genre prompting, stems |
-| `alterlab-genai-soundtrack-composer` | AISoundtrackCompocer | Suno | Instrumentals, film scoring, ambient |
+| `alterlab-genai-soundtrack-composer` | AISoundtrackComposer | Suno | Instrumentals, film scoring, ambient |
 
 </details>
 

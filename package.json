@@ -1,12 +1,13 @@
 {
   "name": "alterlab-fc-skills",
+  "private": true,
   "version": "1.0.0",
   "description": "48 Claude AI skills for Faculty of Communication students — PRA, CDM, NMC, GenAI departments",
   "author": "Cem Ipek <cem.ipek@ieu.edu.tr>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlterLab-IEU/AlterLab_Fc.git"
+    "url": "https://github.com/AlterLab-IEU/AlterLab-FC-Skills.git"
   },
   "keywords": [
     "claude-ai",
@@ -25,7 +26,8 @@
     "nexus"
   ],
   "scripts": {
-    "validate": "echo 'Checking skills (expect 48)...' && find skills -name 'SKILL.md' | wc -l",
-    "list": "find skills -name 'SKILL.md' | sort"
+    "validate": "node scripts/validate.js",
+    "validate:fix": "node scripts/validate.js --fix",
+    "list": "node scripts/validate.js --list"
   }
 }

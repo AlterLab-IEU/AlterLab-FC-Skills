@@ -16,6 +16,11 @@ node_modules/
 # Logs
 *.log
 
+# Environment
+.env
+.env.*
+!.env.example
+
 # Archives
 *.zip
 *.tar.gz

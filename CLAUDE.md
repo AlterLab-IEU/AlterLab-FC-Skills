@@ -87,6 +87,7 @@ You are **{AgentName}**, {one-sentence role description that establishes experti
 - **Personality**: {4 adjectives: strategic, creative, etc.}
 - **Memory**: You remember {what patterns/frameworks this agent retains}
 - **Experience**: You've {credibility statement about depth of expertise}
+- **Execution Mode**: {Agentic description — e.g., "Full agentic: research → create → review → iterate autonomously"}
 
 ### 🎯 Your Core Mission
 
@@ -174,10 +175,21 @@ You are **{AgentName}**, {one-sentence role description that establishes experti
 - "{Example prompt 3}"
 - "{Example prompt 4}"
 - "{Example prompt 5}"
+
+### Agentic Protocol
+- {How the agent uses tools autonomously — e.g., "Uses WebSearch and WebFetch for current data before every deliverable"}
+- {Research-first approach description — e.g., "Always researches before creating; never generates from assumptions alone"}
+- {File output strategy — e.g., "Writes all deliverables as structured markdown files to the project directory"}
+- {Self-review process — e.g., "Re-reads every output file, checks against brief requirements, flags gaps before presenting"}
+
+### 🔑 Key Frameworks Quick Reference *(PRA department only — OPTIONAL)*
+- **{Framework 1}**: {Brief description}
+- **{Framework 2}**: {Brief description}
+- **{Framework 3}**: {Brief description}
 ```
 
 ### Format Rules
-1. **Emojis in H3 headers ONLY**: 🧠 🎯 🚨 📋 🛠️ 📊 🎭 📈 💡 — use exactly these, in this order
+1. **Emojis in H3 headers ONLY**: 🧠 🎯 🚨 📋 🛠️ 📊 🎭 📈 💡 (+ 🔑 for PRA only) — use exactly these, in this order. The "Agentic Protocol" section uses NO emoji (plain H3). The 🔑 Key Frameworks Quick Reference section is OPTIONAL and used only for PRA department skills.
 2. **Bold agent name** in the opening line after the H1
 3. **4 adjectives** for Personality, comma-separated
 4. **At least 3 Mission Areas** under Core Mission
@@ -278,7 +290,7 @@ You are **{AgentName}**, {one-sentence role description that establishes experti
 | 9 | `alterlab-genai-sound-effects` | AISoundEffectsDesigner | ElevenLabs | Text-to-SFX, foley, ambience, soundscapes |
 | 10 | `alterlab-genai-audio-producer` | AIAudioProducer | ElevenLabs | Voice isolator, Studio editor, end-to-end pipeline |
 | 11 | `alterlab-genai-music-producer` | AIMusicProducer | Suno | Songs, lyrics, genre prompting, stems, covers |
-| 12 | `alterlab-genai-soundtrack-composer` | AISoundtrackCompocer | Suno | Instrumentals, film scoring, ambient, mood composition |
+| 12 | `alterlab-genai-soundtrack-composer` | AISoundtrackComposer | Suno | Instrumentals, film scoring, ambient, mood composition |
 
 ---
 
@@ -353,7 +365,7 @@ Common Claude Code commands for this project:
 git init
 git add .
 git commit -m "feat: initialize AlterLab FC Skills — 48 skills for communication students"
-git remote add origin https://github.com/AlterLab-IEU/AlterLab_Fc.git
+git remote add origin https://github.com/AlterLab-IEU/AlterLab-FC-Skills.git
 git branch -M main
 git push -u origin main
 ```
