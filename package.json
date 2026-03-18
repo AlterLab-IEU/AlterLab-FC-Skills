@@ -1,8 +1,8 @@
 {
   "name": "alterlab-fc-skills",
   "private": true,
-  "version": "1.0.0",
-  "description": "48 Claude AI skills for Faculty of Communication students — PRA, CDM, NMC, GenAI departments",
+  "version": "1.2.0",
+  "description": "72 Claude AI skills for Faculty of Communication students — PRA, CDM, NMC, GenAI, VCD, RMA departments",
   "author": "Cem Ipek <cem.ipek@ieu.edu.tr>",
   "license": "MIT",
   "repository": {
@@ -22,6 +22,9 @@
     "higgsfield",
     "elevenlabs",
     "suno",
+    "visual-communication",
+    "research-methods",
+    "academic-writing",
     "alterlab",
     "nexus"
   ],

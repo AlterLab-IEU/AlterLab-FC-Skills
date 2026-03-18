@@ -1,13 +1,13 @@
 # AlterLab FC Skills
 
-> **48 Agentic Claude AI skills for Faculty of Communication students**
+> **72 Agentic Claude AI skills for Faculty of Communication students**
 > Built by [AlterLab](https://github.com/AlterLab-IEU) — Creative Technologies Laboratory
 
 ---
 
 ## What Is This?
 
-A collection of **48 autonomous Claude AI skills** for communication students — covering Public Relations & Advertising, Cinema & Digital Media, New Media & Communication, and Generative AI Production. Each skill transforms Claude into an **agentic domain expert** that researches, creates file-based deliverables, self-reviews, and iterates — not just advises.
+A collection of **72 autonomous Claude AI skills** for communication students — covering Public Relations & Advertising, Cinema & Digital Media, New Media & Communication, Generative AI Production, Visual Communication Design, and Research Methods & Academic Writing. Each skill transforms Claude into an **agentic domain expert** that researches, creates file-based deliverables, self-reviews, and iterates — not just advises.
 
 **Not tied to any specific university.** These skills work for any communication student, anywhere.
 
@@ -38,6 +38,12 @@ Podcast production, data journalism, multimedia storytelling, social media analy
 
 ### 🤖 GenAI — Generative AI Production (12 Skills)
 AI video creation (Higgsfield), voice design & cloning (ElevenLabs), music production (Suno) — text-to-image, image-to-video, camera direction, motion design, talking heads, voice design, voice cloning, dubbing, sound effects, audio production, music production, and soundtrack composition.
+
+### 🎨 VCD — Visual Communication Design (12 Skills)
+Brand identity, typography, layout design, infographics, poster design, motion graphics, UI design, color theory, packaging design, photo editing, design critique, and exhibition design.
+
+### 📚 RMA — Research Methods & Academic Writing (12 Skills)
+Literature reviews, research design, survey building, qualitative coding, statistics guidance, thesis architecture, citation management, abstract writing, proposal writing, content analysis, interview analysis, and academic writing craft.
 
 ---
 
@@ -145,6 +151,46 @@ Browse the `skills/` folder and download only the ones you need. Every skill is 
 
 </details>
 
+<details>
+<summary>🎨 VCD — Visual Communication Design (12 Skills)</summary>
+
+| Skill | Agent | What It Does |
+|-------|-------|-------------|
+| `alterlab-vcd-brand-identity` | BrandIdentityDesigner | Brand identity systems, logo design, guidelines |
+| `alterlab-vcd-typographer` | Typographer | Typography, type pairing, hierarchy |
+| `alterlab-vcd-layout-designer` | LayoutDesigner | Page layout, grid systems, editorial design |
+| `alterlab-vcd-infographic` | InfographicDesigner | Data visualization, infographic design |
+| `alterlab-vcd-poster-designer` | PosterDesigner | Poster design, visual campaigns |
+| `alterlab-vcd-motion-graphics` | MotionGraphicsDesigner | Motion graphics, title sequences, kinetic type |
+| `alterlab-vcd-ui-designer` | UIDesigner | UI design, design systems, Figma workflows |
+| `alterlab-vcd-color-theorist` | ColorTheorist | Color theory, palettes, accessibility |
+| `alterlab-vcd-packaging` | PackagingDesigner | Packaging design, structural design, dielines |
+| `alterlab-vcd-photo-editor` | PhotoEditor | Photo editing, retouching, compositing |
+| `alterlab-vcd-design-critic` | DesignCritic | Design critique, visual analysis, history |
+| `alterlab-vcd-exhibition` | ExhibitionDesigner | Exhibition design, wayfinding, spatial graphics |
+
+</details>
+
+<details>
+<summary>📚 RMA — Research Methods & Academic Writing (12 Skills)</summary>
+
+| Skill | Agent | What It Does |
+|-------|-------|-------------|
+| `alterlab-rma-literature-reviewer` | LiteratureReviewer | Systematic reviews, annotated bibliographies |
+| `alterlab-rma-research-designer` | ResearchDesigner | Research design, methodology selection |
+| `alterlab-rma-survey-builder` | SurveyBuilder | Survey design, questionnaire construction |
+| `alterlab-rma-qualitative-coder` | QualitativeCoder | Thematic analysis, grounded theory coding |
+| `alterlab-rma-statistics-guide` | StatisticsGuide | SPSS/R, hypothesis testing, effect sizes |
+| `alterlab-rma-thesis-architect` | ThesisArchitect | Thesis structure, defense preparation |
+| `alterlab-rma-citation-manager` | CitationManager | APA/MLA/Chicago, Zotero/Mendeley |
+| `alterlab-rma-abstract-writer` | AbstractWriter | Academic abstracts, IMRAD, keywords |
+| `alterlab-rma-proposal-writer` | ProposalWriter | Research/grant proposals, ethics applications |
+| `alterlab-rma-content-analyst` | ContentAnalyst | Content analysis, coding schemes, framing |
+| `alterlab-rma-interview-analyst` | InterviewAnalyst | Interview methodology, IPA, focus groups |
+| `alterlab-rma-academic-writer` | AcademicWriter | Scholarly writing, peer review response |
+
+</details>
+
 ---
 
 ## How Skills Work
@@ -193,8 +239,16 @@ AlterLab_Fc/
     │   ├── alterlab-nmc-podcast-producer/
     │   │   └── SKILL.md
     │   └── ...
-    └── genai/                   # Generative AI Production (12 skills)
-        ├── alterlab-genai-text-to-image/
+    ├── genai/                   # Generative AI Production (12 skills)
+    │   ├── alterlab-genai-text-to-image/
+    │   │   └── SKILL.md
+    │   └── ...
+    ├── vcd/                     # Visual Communication Design (12 skills)
+    │   ├── alterlab-vcd-brand-identity/
+    │   │   └── SKILL.md
+    │   └── ...
+    └── rma/                     # Research Methods & Academic Writing (12 skills)
+        ├── alterlab-rma-literature-reviewer/
         │   └── SKILL.md
         └── ...
 ```

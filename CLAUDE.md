@@ -1,6 +1,6 @@
 # AlterLab FC Skills — Claude Code Project Instructions
 
-> **Project**: AlterLab FC Skills — 48 Claude AI skills for Faculty of Communication students
+> **Project**: AlterLab FC Skills — 72 Claude AI skills for Faculty of Communication students
 > **Owner**: AlterLab Creative Technologies Laboratory
 > **Repo**: AlterLab-IEU/AlterLab_Fc
 
@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-This project generates **48 professional Claude AI skills** organized into 4 department packs for communication faculty students worldwide. Each skill transforms Claude into a domain-specific expert assistant tailored to real coursework, creative production, and professional workflows in communication disciplines.
+This project generates **72 professional Claude AI skills** organized into 6 department packs for communication faculty students worldwide. Each skill transforms Claude into a domain-specific expert assistant tailored to real coursework, creative production, and professional workflows in communication disciplines.
 
 ### Department Packs
 
@@ -18,12 +18,15 @@ This project generates **48 professional Claude AI skills** organized into 4 dep
 | **CDM** — Cinema & Digital Media | `skills/cdm/` | Film, animation, digital media production | 12 |
 | **NMC** — New Media & Communication | `skills/nmc/` | New media, journalism, multimedia | 12 |
 | **GenAI** — Generative AI Production | `skills/genai/` | Higgsfield, ElevenLabs, Suno workflows | 12 |
+| **VCD** — Visual Communication Design | `skills/vcd/` | Graphic design, typography, branding, UI | 12 |
+| **RMA** — Research Methods & Academic Writing | `skills/rma/` | Research methodology, academic writing, data analysis | 12 |
 
 ### Key Principles
 - **UNIVERSAL**: No university-specific references. These skills work for ANY communication student globally.
 - **ALTERLAB VOICE**: Follow the AlterLab skill format exactly (see template below).
 - **PRODUCTION-READY**: Every skill must be immediately usable — not theoretical, not placeholder.
 - **COURSE-MAPPED**: Skills align to standard communication faculty curricula worldwide.
+- **AGENTIC**: Every skill autonomously researches, creates file-based deliverables, self-reviews, and iterates.
 
 ---
 
@@ -49,8 +52,16 @@ AlterLab_Fc/
     │   ├── alterlab-nmc-podcast-producer/
     │   │   └── SKILL.md
     │   └── ...
-    └── genai/                   # Generative AI Production (12 skills)
-        ├── alterlab-genai-text-to-image/
+    ├── genai/                   # Generative AI Production (12 skills)
+    │   ├── alterlab-genai-text-to-image/
+    │   │   └── SKILL.md
+    │   └── ...
+    ├── vcd/                     # Visual Communication Design (12 skills)
+    │   ├── alterlab-vcd-brand-identity/
+    │   │   └── SKILL.md
+    │   └── ...
+    └── rma/                     # Research Methods & Academic Writing (12 skills)
+        ├── alterlab-rma-literature-reviewer/
         │   └── SKILL.md
         └── ...
 ```
@@ -222,7 +233,7 @@ You are **{AgentName}**, {one-sentence role description that establishes experti
 
 ---
 
-## The 48 Skills — Full Registry
+## The 72 Skills — Full Registry
 
 ### PRA Department (Public Relations & Advertising) — 12 Skills
 
@@ -292,6 +303,40 @@ You are **{AgentName}**, {one-sentence role description that establishes experti
 | 11 | `alterlab-genai-music-producer` | AIMusicProducer | Suno | Songs, lyrics, genre prompting, stems, covers |
 | 12 | `alterlab-genai-soundtrack-composer` | AISoundtrackComposer | Suno | Instrumentals, film scoring, ambient, mood composition |
 
+### VCD Department (Visual Communication Design) — 12 Skills
+
+| # | Skill Name | Agent Name | Core Domain |
+|---|-----------|------------|-------------|
+| 1 | `alterlab-vcd-brand-identity` | BrandIdentityDesigner | Brand identity systems, logo design, visual identity guidelines |
+| 2 | `alterlab-vcd-typographer` | Typographer | Typography, type pairing, typographic hierarchy, font selection |
+| 3 | `alterlab-vcd-layout-designer` | LayoutDesigner | Page layout, grid systems, editorial design, print production |
+| 4 | `alterlab-vcd-infographic` | InfographicDesigner | Data visualization, infographic design, visual storytelling with data |
+| 5 | `alterlab-vcd-poster-designer` | PosterDesigner | Poster design, visual campaigns, event graphics, exhibition displays |
+| 6 | `alterlab-vcd-motion-graphics` | MotionGraphicsDesigner | Motion graphics, title sequences, animated explainers, kinetic typography |
+| 7 | `alterlab-vcd-ui-designer` | UIDesigner | UI design, design systems, component libraries, Figma workflows |
+| 8 | `alterlab-vcd-color-theorist` | ColorTheorist | Color theory, palette creation, color psychology, accessibility compliance |
+| 9 | `alterlab-vcd-packaging` | PackagingDesigner | Packaging design, structural design, dieline creation, shelf impact |
+| 10 | `alterlab-vcd-photo-editor` | PhotoEditor | Photo editing, retouching, compositing, color correction workflows |
+| 11 | `alterlab-vcd-design-critic` | DesignCritic | Design critique, visual analysis, design history, aesthetic evaluation |
+| 12 | `alterlab-vcd-exhibition` | ExhibitionDesigner | Exhibition design, wayfinding, spatial graphics, museum/gallery displays |
+
+### RMA Department (Research Methods & Academic Writing) — 12 Skills
+
+| # | Skill Name | Agent Name | Core Domain |
+|---|-----------|------------|-------------|
+| 1 | `alterlab-rma-literature-reviewer` | LiteratureReviewer | Systematic literature reviews, annotated bibliographies, research gap identification |
+| 2 | `alterlab-rma-research-designer` | ResearchDesigner | Research design, methodology selection, research questions, hypothesis formulation |
+| 3 | `alterlab-rma-survey-builder` | SurveyBuilder | Survey design, questionnaire construction, Likert scales, online survey tools |
+| 4 | `alterlab-rma-qualitative-coder` | QualitativeCoder | Thematic analysis, grounded theory coding, codebook development, NVivo/ATLAS.ti |
+| 5 | `alterlab-rma-statistics-guide` | StatisticsGuide | Descriptive/inferential statistics, SPSS/R, hypothesis testing, effect sizes |
+| 6 | `alterlab-rma-thesis-architect` | ThesisArchitect | Thesis/dissertation structure, chapter organization, defense preparation |
+| 7 | `alterlab-rma-citation-manager` | CitationManager | APA 7th, MLA 9th, Chicago, Zotero/Mendeley, plagiarism prevention |
+| 8 | `alterlab-rma-abstract-writer` | AbstractWriter | Academic abstracts, IMRAD structure, conference abstracts, keyword optimization |
+| 9 | `alterlab-rma-proposal-writer` | ProposalWriter | Research proposals, grant applications, ethics applications, budget planning |
+| 10 | `alterlab-rma-content-analyst` | ContentAnalyst | Content analysis methodology, coding schemes, framing analysis, intercoder reliability |
+| 11 | `alterlab-rma-interview-analyst` | InterviewAnalyst | Interview methodology, IPA, narrative analysis, focus groups, transcription |
+| 12 | `alterlab-rma-academic-writer` | AcademicWriter | Academic writing craft, scholarly tone, IMRAD, peer review response, revision |
+
 ---
 
 ## Generation Instructions for Claude Code
@@ -300,8 +345,8 @@ When asked to generate skills, follow this exact process:
 
 ### Step 1: Create Directory Structure
 ```bash
-mkdir -p skills/pra skills/cdm skills/nmc skills/genai
-for dept in pra cdm nmc genai; do
+mkdir -p skills/pra skills/cdm skills/nmc skills/genai skills/vcd skills/rma
+for dept in pra cdm nmc genai vcd rma; do
   # Create each skill folder from the registry
 done
 ```
@@ -322,9 +367,9 @@ When generating, produce skills in batches of 6 (one department at a time, split
 - Verify line count is 150-300
 
 ### Step 4: Quality Checks
-After all 48 skills are generated:
+After all 72 skills are generated:
 1. Run a line count check: `wc -l skills/*/*/SKILL.md`
-2. Verify all 48 folders exist: `find skills -name "SKILL.md" | wc -l`
+2. Verify all 72 folders exist: `find skills -name "SKILL.md" | wc -l`
 3. Grep for university-specific references (should find NONE): `grep -ri "ieu\|izmir\|ekonomi" skills/`
 4. Verify frontmatter: `head -8 skills/*/*/SKILL.md`
 
@@ -364,7 +409,7 @@ Common Claude Code commands for this project:
 ```bash
 git init
 git add .
-git commit -m "feat: initialize AlterLab FC Skills — 48 skills for communication students"
+git commit -m "feat: initialize AlterLab FC Skills — 72 skills for communication students"
 git remote add origin https://github.com/AlterLab-IEU/AlterLab-FC-Skills.git
 git branch -M main
 git push -u origin main

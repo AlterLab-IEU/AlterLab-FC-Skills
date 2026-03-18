@@ -24,3 +24,9 @@ node_modules/
 # Archives
 *.zip
 *.tar.gz
+
+# Project meta (not needed in repo)
+CHANGELOG.md
+CONTRIBUTING.md
+SKILL_TEMPLATE.md
+NEXT_SESSION_PROMPT.md
