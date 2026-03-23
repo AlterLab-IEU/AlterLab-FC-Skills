@@ -43,8 +43,6 @@ A collection of **72 autonomous Claude AI skills** for communication students �
 
 Each skill transforms Claude into an **agentic domain expert** that researches the web, reads your project files, creates production-ready deliverables, self-reviews its own output, and iterates — not just advises.
 
-> **🌍 Not tied to any specific university.** These skills work for any communication student, anywhere.
-
 <br/>
 
 ## ⚡ What Makes These Skills Different?
