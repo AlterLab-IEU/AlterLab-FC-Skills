@@ -1,41 +1,104 @@
 <div align="center">
 
-<!-- HERO BANNER -->
-<img src="https://img.shields.io/badge/%F0%9F%8E%93_AlterLab-FC_Skills-7C3AED?style=for-the-badge&labelColor=1e1e2e&color=7C3AED" alt="AlterLab FC Skills" height="50"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,5&height=180&section=header&text=AlterLab%20FC%20Skills&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Transform%20Claude%20into%20Your%20Creative%20Production%20Expert&descSize=16&descAlignY=52" width="100%" alt="AlterLab FC Skills">
 
-<br/>
-<br/>
+<br>
 
-<strong>72 Agentic Claude AI Skills for Communication Students</strong>
+<a href="skills/"><img src="https://img.shields.io/badge/Skills-72-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white" alt="Skills"></a>
+<a href="skills/"><img src="https://img.shields.io/badge/Departments-6-2563EB?style=for-the-badge&logo=databricks&logoColor=white" alt="Departments"></a>
+<a href="https://www.anthropic.com"><img src="https://img.shields.io/badge/Claude-AI%20Powered-F97316?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude AI"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License"></a>
+
+<br>
+
+<a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/stargazers"><img src="https://img.shields.io/github/stars/AlterLab-IEU/AlterLab-FC-Skills?style=for-the-badge&logo=github&color=EAB308&logoColor=white" alt="Stars"></a>
+<a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/network/members"><img src="https://img.shields.io/github/forks/AlterLab-IEU/AlterLab-FC-Skills?style=for-the-badge&logo=git&color=6366F1&logoColor=white" alt="Forks"></a>
+<a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/issues"><img src="https://img.shields.io/github/issues/AlterLab-IEU/AlterLab-FC-Skills?style=for-the-badge&logo=github&color=EF4444&logoColor=white" alt="Issues"></a>
+<a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/releases"><img src="https://img.shields.io/github/v/release/AlterLab-IEU/AlterLab-FC-Skills?style=for-the-badge&logo=github&color=06B6D4&logoColor=white" alt="Release"></a>
+
+<br><br>
+
+<h3>🎓 72 Agentic Claude AI Skills for Communication Students</h3>
+<p><em>Purpose-built autonomous agents across 6 departments — from PR & Advertising to GenAI Production</em></p>
 
 <p>
-Purpose-built autonomous agents for <strong>PR & Advertising</strong> · <strong>Cinema & Digital Media</strong> · <strong>New Media</strong> · <strong>GenAI Production</strong> · <strong>Visual Communication</strong> · <strong>Research Methods</strong>
+<b>PR & Advertising</b> · <b>Cinema & Digital Media</b> · <b>New Media</b> · <b>GenAI Production</b> · <b>Visual Communication</b> · <b>Research Methods</b>
 </p>
 
 <p>
-Drop into <a href="https://claude.ai">Claude Projects</a> and start creating.
+<a href="skills/"><b>Explore Skills »</b></a> · 
+<a href="#-quick-start">Quick Start</a> · 
+<a href="#%EF%B8%8F-department-overview">Departments</a> · 
+<a href="#-full-skill-catalog">Skill Catalog</a> · 
+<a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/issues">Report Bug</a>
 </p>
 
-<!-- BADGES -->
-<p>
-<img src="https://img.shields.io/badge/skills-72-7C3AED?style=flat-square&labelColor=1e1e2e" alt="72 Skills"/>
-<img src="https://img.shields.io/badge/departments-6-06B6D4?style=flat-square&labelColor=1e1e2e" alt="6 Departments"/>
-<img src="https://img.shields.io/badge/platform-Claude_AI-F59E0B?style=flat-square&labelColor=1e1e2e" alt="Claude AI"/>
-<img src="https://img.shields.io/badge/license-MIT-22C55E?style=flat-square&labelColor=1e1e2e" alt="MIT License"/>
-<img src="https://img.shields.io/badge/version-1.2.0-EC4899?style=flat-square&labelColor=1e1e2e" alt="v1.2.0"/>
-</p>
+<br>
 
-<p>
-<a href="#-quick-start">Quick Start</a> · <a href="#-department-packs">Departments</a> · <a href="#-full-skill-catalog">Skill Catalog</a> · <a href="#-how-skills-work">How It Works</a> · <a href="#-contributing">Contributing</a>
-</p>
+<hr>
 
-<br/>
+<table><tr><td>
+<b>Built by</b> <a href="https://github.com/AlterLab-IEU"><b>AlterLab Creative Technologies Laboratory</b></a>
+<br><br>
+<em>Drop into <a href="https://claude.ai">Claude Projects</a> and start creating.</em>
+</td></tr></table>
 
 </div>
 
----
+<br>
 
-<br/>
+<!-- FEATURE HIGHLIGHTS -->
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="25%">
+<h3>🔍</h3>
+<h3>Research First</h3>
+<p>Search the web for current<br>data, trends, and benchmarks<br>before creating anything</p>
+</td>
+<td align="center" width="25%">
+<h3>📝</h3>
+<h3>Real Deliverables</h3>
+<p>Write production-ready files<br>— scripts, briefs, reports —<br>directly to your project</p>
+</td>
+<td align="center" width="25%">
+<h3>🔁</h3>
+<h3>Self-Review</h3>
+<p>Re-read their own output<br>and assess quality before<br>presenting results</p>
+</td>
+<td align="center" width="25%">
+<h3>🎯</h3>
+<h3>Iterate</h3>
+<p>Offer specific refinement<br>directions after every<br>deliverable</p>
+</td>
+</tr>
+</table>
+</div>
+
+<br>
+
+## 📋 Table of Contents
+
+<details open>
+<summary><b>Click to expand / collapse</b></summary>
+<br>
+
+- [🧬 What Is This?](#-what-is-this)
+- [⚡ What Makes These Skills Different?](#-what-makes-these-skills-different)
+- [🗂️ Department Overview](#%EF%B8%8F-department-overview)
+- [🚀 Quick Start](#-quick-start)
+- [📦 Department Packs](#-department-packs)
+- [📋 Full Skill Catalog](#-full-skill-catalog)
+- [🔬 How Skills Work](#-how-skills-work)
+- [🗂️ Project Structure](#%EF%B8%8F-project-structure)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+- [🙏 Credits](#-credits)
+
+</details>
+
+<br>
 
 ## 🧬 What Is This?
 
@@ -43,7 +106,10 @@ A collection of **72 autonomous Claude AI skills** for communication students �
 
 Each skill transforms Claude into an **agentic domain expert** that researches the web, reads your project files, creates production-ready deliverables, self-reviews its own output, and iterates — not just advises.
 
-<br/>
+> [!TIP]
+> **How it works:** Each skill is a structured `.md` prompt file. Drop it into a Claude Project or Claude Code, and Claude instantly becomes your creative production expert — with real industry frameworks, professional output templates, and deep domain knowledge.
+
+<br>
 
 ## ⚡ What Makes These Skills Different?
 
@@ -57,7 +123,20 @@ These aren't chatbot personas. They're **autonomous agents** that execute a full
 | 🔁 | **Self-Review** | Re-read their own output and assess quality before presenting |
 | 🎯 | **Iterate** | Offer specific refinement directions after every deliverable |
 
-<br/>
+<br>
+
+## 🗂️ Department Overview
+
+| | Department | Skills | Focus Areas |
+|:---:|:---|:---:|:---|
+| 🎯 | **PRA — PR & Advertising** | **12** | Campaign strategy, copywriting, brand analysis, media planning, PR writing |
+| 🎬 | **CDM — Cinema & Digital Media** | **12** | Screenwriting, pre-production, film analysis, documentary, VFX, sound design |
+| 🌐 | **NMC — New Media & Communication** | **12** | Podcast production, data journalism, multimedia storytelling, social analytics |
+| 🤖 | **GenAI — Generative AI Production** | **12** | AI video (Higgsfield), voice design (ElevenLabs), music production (Suno) |
+| 🎨 | **VCD — Visual Communication Design** | **12** | Brand identity, typography, layout, infographics, motion graphics, UI design |
+| 📚 | **RMA — Research Methods & Academic Writing** | **12** | Literature reviews, research design, surveys, qualitative coding, thesis writing |
+
+<br>
 
 ## 🚀 Quick Start
 
@@ -65,7 +144,7 @@ These aren't chatbot personas. They're **autonomous agents** that execute a full
 
 ```
 1. Go to claude.ai → Projects → Create Project
-2. Upload the SKILL.md files from your department folder into the Knowledge section
+2. Upload SKILL.md files from your department folder into the Knowledge section
 3. Start chatting — Claude now has your skills loaded
 ```
 
@@ -79,206 +158,170 @@ claude "act as my screenwriter assistant and help me develop a short film concep
 
 ### Option 3 — Pick Individual Skills
 
-Browse the `skills/` folder and download only the ones you need. Every skill is a standalone `.md` file.
+> Browse the [`skills/`](skills/) folder and download only the ones you need. Every skill is a standalone `.md` file.
 
-<br/>
+<br>
 
 ---
-
-<br/>
 
 ## 📦 Department Packs
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| | Department | Skills | Highlights |
+|:---:|:---|:---:|:---|
+| 🎯 | **PRA — Public Relations & Advertising** | 12 | Campaign strategy, copywriting, brand analysis, media planning, PR writing, consumer insight research, social content creation, pitch decks, CSR campaigns, market research, creative briefs, and campaign reporting |
+| 🎬 | **CDM — Cinema & Digital Media** | 12 | Screenwriting, pre-production planning, film analysis, documentary research, post-production, festival submissions, VFX pipeline, sound design, film pitching, subtitles & localization, animation pre-viz, and production management |
+| 🌐 | **NMC — New Media & Communication** | 12 | Podcast production, data journalism, multimedia storytelling, social media analytics, portfolio curation, web content strategy, video essays, digital ethics, community management, newsletter design, media theory, and digital campaigns |
+| 🤖 | **GenAI — Generative AI Production** | 12 | AI video creation (Higgsfield), voice design & cloning (ElevenLabs), music production (Suno) — text-to-image, image-to-video, camera direction, motion design, talking heads, voice cloning, dubbing, sound effects, and soundtrack composition |
+| 🎨 | **VCD — Visual Communication Design** | 12 | Brand identity, typography, layout design, infographics, poster design, motion graphics, UI design, color theory, packaging design, photo editing, design critique, and exhibition design |
+| 📚 | **RMA — Research Methods & Academic Writing** | 12 | Literature reviews, research design, survey building, qualitative coding, statistics guidance, thesis architecture, citation management, abstract writing, proposal writing, content analysis, interview analysis, and academic writing craft |
 
-### 🎯 PRA — Public Relations & Advertising
-**12 Skills** · Campaign strategy, copywriting, brand analysis, media planning, PR writing, consumer insight research, social content creation, pitch decks, CSR campaigns, market research, creative briefs, and campaign reporting.
-
-</td>
-<td width="50%" valign="top">
-
-### 🎬 CDM — Cinema & Digital Media
-**12 Skills** · Screenwriting, pre-production planning, film analysis, documentary research, post-production, festival submissions, VFX pipeline, sound design, film pitching, subtitles & localization, animation pre-viz, and production management.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌐 NMC — New Media & Communication
-**12 Skills** · Podcast production, data journalism, multimedia storytelling, social media analytics, portfolio curation, web content strategy, video essays, digital ethics, community management, newsletter design, media theory, and digital campaigns.
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 GenAI — Generative AI Production
-**12 Skills** · AI video creation (Higgsfield), voice design & cloning (ElevenLabs), music production (Suno) — text-to-image, image-to-video, camera direction, motion design, talking heads, voice cloning, dubbing, sound effects, and soundtrack composition.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎨 VCD — Visual Communication Design
-**12 Skills** · Brand identity, typography, layout design, infographics, poster design, motion graphics, UI design, color theory, packaging design, photo editing, design critique, and exhibition design.
-
-</td>
-<td width="50%" valign="top">
-
-### 📚 RMA — Research Methods & Academic Writing
-**12 Skills** · Literature reviews, research design, survey building, qualitative coding, statistics guidance, thesis architecture, citation management, abstract writing, proposal writing, content analysis, interview analysis, and academic writing craft.
-
-</td>
-</tr>
-</table>
-
-<br/>
+<br>
 
 ---
-
-<br/>
 
 ## 📋 Full Skill Catalog
 
+### 🎯 PRA — Public Relations & Advertising (12 Skills)
+
 <details>
-<summary><strong>🎯 PRA — Public Relations & Advertising (12 Skills)</strong></summary>
+<summary><b>Click to expand full PRA skills list</b></summary>
+<br>
 
-<br/>
-
-| Skill | Agent | What It Does |
-|:------|:------|:-------------|
-| `alterlab-pra-campaign-strategist` | CampaignStrategist | IMC campaign planning, strategic briefs, ROSTIR model |
-| `alterlab-pra-copywriter` | AdCopywriter | Headlines, slogans, body copy, scripts, AIDA framework |
-| `alterlab-pra-brand-analyst` | BrandAnalyst | Brand audits, competitive intelligence, positioning |
-| `alterlab-pra-consumer-insight` | ConsumerInsightResearcher | Personas, surveys, focus groups, journey mapping |
-| `alterlab-pra-media-planner` | MediaPlanner | Channel strategy, budget allocation, CPM/GRP |
-| `alterlab-pra-pr-writer` | PRWriter | Press releases, media kits, crisis communications |
-| `alterlab-pra-social-content` | SocialContentCreator | Content calendars, platform-native posts |
-| `alterlab-pra-pitch-builder` | PitchDeckBuilder | Client presentations, agency credentials |
-| `alterlab-pra-csr-designer` | CSRCampaignDesigner | Social responsibility campaigns, impact measurement |
-| `alterlab-pra-market-research` | MarketResearchAnalyst | PESTEL analysis, trend reports, data interpretation |
-| `alterlab-pra-creative-brief` | CreativeBriefWriter | One-page agency briefs, propositions |
-| `alterlab-pra-report-generator` | CampaignReportGenerator | Performance reports, KPI dashboards |
+| # | Skill | Agent | What It Does |
+|:---:|:---|:---|:---|
+| 1 | **Campaign Strategist** | CampaignStrategist | IMC campaign planning, strategic briefs, ROSTIR model |
+| 2 | **Copywriter** | AdCopywriter | Headlines, slogans, body copy, scripts, AIDA framework |
+| 3 | **Brand Analyst** | BrandAnalyst | Brand audits, competitive intelligence, positioning |
+| 4 | **Consumer Insight** | ConsumerInsightResearcher | Personas, surveys, focus groups, journey mapping |
+| 5 | **Media Planner** | MediaPlanner | Channel strategy, budget allocation, CPM/GRP |
+| 6 | **PR Writer** | PRWriter | Press releases, media kits, crisis communications |
+| 7 | **Social Content** | SocialContentCreator | Content calendars, platform-native posts |
+| 8 | **Pitch Builder** | PitchDeckBuilder | Client presentations, agency credentials |
+| 9 | **CSR Designer** | CSRCampaignDesigner | Social responsibility campaigns, impact measurement |
+| 10 | **Market Research** | MarketResearchAnalyst | PESTEL analysis, trend reports, data interpretation |
+| 11 | **Creative Brief** | CreativeBriefWriter | One-page agency briefs, propositions |
+| 12 | **Report Generator** | CampaignReportGenerator | Performance reports, KPI dashboards |
 
 </details>
 
+### 🎬 CDM — Cinema & Digital Media (12 Skills)
+
 <details>
-<summary><strong>🎬 CDM — Cinema & Digital Media (12 Skills)</strong></summary>
+<summary><b>Click to expand full CDM skills list</b></summary>
+<br>
 
-<br/>
-
-| Skill | Agent | What It Does |
-|:------|:------|:-------------|
-| `alterlab-cdm-screenwriter` | ScreenwriterAssistant | Script development, dialogue, formatting |
-| `alterlab-cdm-preproduction` | PreProductionPlanner | Shot lists, schedules, breakdowns |
-| `alterlab-cdm-film-analysis` | FilmAnalysisCompanion | Film essays, theory, sequence analysis |
-| `alterlab-cdm-documentary-research` | DocumentaryResearcher | Archival research, interview prep, treatments |
-| `alterlab-cdm-postproduction` | PostProductionGuide | Editing, color grading, sound, delivery |
-| `alterlab-cdm-festival-strategy` | FestivalStrategyWriter | Loglines, synopses, director statements |
-| `alterlab-cdm-vfx-pipeline` | VFXPipelineGuide | Compositing, effect planning, CGI |
-| `alterlab-cdm-sound-designer` | SoundDesignPlanner | Sound maps, music supervision, mixing |
-| `alterlab-cdm-film-pitch` | FilmPitchDeveloper | Treatments, lookbooks, funding proposals |
-| `alterlab-cdm-subtitle-loc` | SubtitleLocalizationExpert | SRT/VTT, timing, translation |
-| `alterlab-cdm-animation-previz` | AnimationPreVizDesigner | Storyboards, animatics, motion planning |
-| `alterlab-cdm-production-manager` | ProductionManager | Budgets, scheduling, logistics |
+| # | Skill | Agent | What It Does |
+|:---:|:---|:---|:---|
+| 1 | **Screenwriter** | ScreenwriterAssistant | Script development, dialogue, formatting |
+| 2 | **Pre-Production** | PreProductionPlanner | Shot lists, schedules, breakdowns |
+| 3 | **Film Analysis** | FilmAnalysisCompanion | Film essays, theory, sequence analysis |
+| 4 | **Documentary Research** | DocumentaryResearcher | Archival research, interview prep, treatments |
+| 5 | **Post-Production** | PostProductionGuide | Editing, color grading, sound, delivery |
+| 6 | **Festival Strategy** | FestivalStrategyWriter | Loglines, synopses, director statements |
+| 7 | **VFX Pipeline** | VFXPipelineGuide | Compositing, effect planning, CGI |
+| 8 | **Sound Designer** | SoundDesignPlanner | Sound maps, music supervision, mixing |
+| 9 | **Film Pitch** | FilmPitchDeveloper | Treatments, lookbooks, funding proposals |
+| 10 | **Subtitle & Localization** | SubtitleLocalizationExpert | SRT/VTT, timing, translation |
+| 11 | **Animation Pre-Viz** | AnimationPreVizDesigner | Storyboards, animatics, motion planning |
+| 12 | **Production Manager** | ProductionManager | Budgets, scheduling, logistics |
 
 </details>
 
+### 🌐 NMC — New Media & Communication (12 Skills)
+
 <details>
-<summary><strong>🌐 NMC — New Media & Communication (12 Skills)</strong></summary>
+<summary><b>Click to expand full NMC skills list</b></summary>
+<br>
 
-<br/>
-
-| Skill | Agent | What It Does |
-|:------|:------|:-------------|
-| `alterlab-nmc-podcast-producer` | PodcastProducer | Episode planning, scripts, show notes |
-| `alterlab-nmc-data-journalist` | DataJournalist | Data viz, storytelling from data |
-| `alterlab-nmc-multimedia-story` | MultimediaStoryBuilder | Cross-platform narratives |
-| `alterlab-nmc-social-analyst` | SocialMediaAnalyst | Analytics, strategy, reporting |
-| `alterlab-nmc-portfolio-curator` | DigitalPortfolioCurator | Portfolio curation, case studies |
-| `alterlab-nmc-web-strategist` | WebContentStrategist | SEO, UX writing, content architecture |
-| `alterlab-nmc-video-essay` | VideoEssayCreator | Visual essays, narration scripts |
-| `alterlab-nmc-digital-ethics` | DigitalEthicsAdvisor | Media ethics, AI ethics analysis |
-| `alterlab-nmc-community-manager` | CommunityManager | Engagement, moderation, growth |
-| `alterlab-nmc-newsletter` | NewsletterDesigner | Email strategy, subject lines |
-| `alterlab-nmc-media-theory` | MediaTheoryCompanion | Academic writing, theory frameworks |
-| `alterlab-nmc-digital-campaign` | DigitalCampaignPlanner | Social impact, digital activism |
+| # | Skill | Agent | What It Does |
+|:---:|:---|:---|:---|
+| 1 | **Podcast Producer** | PodcastProducer | Episode planning, scripts, show notes |
+| 2 | **Data Journalist** | DataJournalist | Data viz, storytelling from data |
+| 3 | **Multimedia Story** | MultimediaStoryBuilder | Cross-platform narratives |
+| 4 | **Social Analyst** | SocialMediaAnalyst | Analytics, strategy, reporting |
+| 5 | **Portfolio Curator** | DigitalPortfolioCurator | Portfolio curation, case studies |
+| 6 | **Web Strategist** | WebContentStrategist | SEO, UX writing, content architecture |
+| 7 | **Video Essay** | VideoEssayCreator | Visual essays, narration scripts |
+| 8 | **Digital Ethics** | DigitalEthicsAdvisor | Media ethics, AI ethics analysis |
+| 9 | **Community Manager** | CommunityManager | Engagement, moderation, growth |
+| 10 | **Newsletter** | NewsletterDesigner | Email strategy, subject lines |
+| 11 | **Media Theory** | MediaTheoryCompanion | Academic writing, theory frameworks |
+| 12 | **Digital Campaign** | DigitalCampaignPlanner | Social impact, digital activism |
 
 </details>
 
+### 🤖 GenAI — Generative AI Production (12 Skills)
+
 <details>
-<summary><strong>🤖 GenAI — Generative AI Production (12 Skills)</strong></summary>
+<summary><b>Click to expand full GenAI skills list</b></summary>
+<br>
 
-<br/>
-
-| Skill | Agent | Platform | What It Does |
-|:------|:------|:---------|:-------------|
-| `alterlab-genai-text-to-image` | TextToImageCreator | Higgsfield | Nano Banana Pro, prompt engineering |
-| `alterlab-genai-image-to-video` | ImageToVideoDirector | Higgsfield | Still-to-motion, multi-shot storytelling |
-| `alterlab-genai-camera-director` | AICameraDirector | Higgsfield | 50+ camera presets, cinematic grammar |
-| `alterlab-genai-motion-designer` | AIMotionDesigner | Higgsfield | VFX, style transfer, transitions |
-| `alterlab-genai-talking-head` | AITalkingHeadCreator | Higgsfield | UGC Builder, Lipsync Studio |
-| `alterlab-genai-voice-designer` | AIVoiceDesigner | ElevenLabs | Eleven v3, voice library, dialogue mode |
-| `alterlab-genai-voice-cloner` | AIVoiceCloner | ElevenLabs | Instant + professional cloning, multilingual |
-| `alterlab-genai-dubbing-specialist` | AIDubbingSpecialist | ElevenLabs | Dubbing Studio, 29 languages |
-| `alterlab-genai-sound-effects` | AISoundEffectsDesigner | ElevenLabs | Text-to-SFX, foley, soundscapes |
-| `alterlab-genai-audio-producer` | AIAudioProducer | ElevenLabs | Voice isolator, end-to-end pipeline |
-| `alterlab-genai-music-producer` | AIMusicProducer | Suno | Songs, lyrics, genre prompting, stems |
-| `alterlab-genai-soundtrack-composer` | AISoundtrackComposer | Suno | Instrumentals, film scoring, ambient |
+| # | Skill | Agent | Platform | What It Does |
+|:---:|:---|:---|:---|:---|
+| 1 | **Text-to-Image** | TextToImageCreator | Higgsfield | Nano Banana Pro, prompt engineering |
+| 2 | **Image-to-Video** | ImageToVideoDirector | Higgsfield | Still-to-motion, multi-shot storytelling |
+| 3 | **Camera Director** | AICameraDirector | Higgsfield | 50+ camera presets, cinematic grammar |
+| 4 | **Motion Designer** | AIMotionDesigner | Higgsfield | VFX, style transfer, transitions |
+| 5 | **Talking Head** | AITalkingHeadCreator | Higgsfield | UGC Builder, Lipsync Studio |
+| 6 | **Voice Designer** | AIVoiceDesigner | ElevenLabs | Eleven v3, voice library, dialogue mode |
+| 7 | **Voice Cloner** | AIVoiceCloner | ElevenLabs | Instant + professional cloning, multilingual |
+| 8 | **Dubbing Specialist** | AIDubbingSpecialist | ElevenLabs | Dubbing Studio, 29 languages |
+| 9 | **Sound Effects** | AISoundEffectsDesigner | ElevenLabs | Text-to-SFX, foley, soundscapes |
+| 10 | **Audio Producer** | AIAudioProducer | ElevenLabs | Voice isolator, end-to-end pipeline |
+| 11 | **Music Producer** | AIMusicProducer | Suno | Songs, lyrics, genre prompting, stems |
+| 12 | **Soundtrack Composer** | AISoundtrackComposer | Suno | Instrumentals, film scoring, ambient |
 
 </details>
 
+### 🎨 VCD — Visual Communication Design (12 Skills)
+
 <details>
-<summary><strong>🎨 VCD — Visual Communication Design (12 Skills)</strong></summary>
+<summary><b>Click to expand full VCD skills list</b></summary>
+<br>
 
-<br/>
-
-| Skill | Agent | What It Does |
-|:------|:------|:-------------|
-| `alterlab-vcd-brand-identity` | BrandIdentityDesigner | Brand identity systems, logo design, guidelines |
-| `alterlab-vcd-typographer` | Typographer | Typography, type pairing, hierarchy |
-| `alterlab-vcd-layout-designer` | LayoutDesigner | Page layout, grid systems, editorial design |
-| `alterlab-vcd-infographic` | InfographicDesigner | Data visualization, infographic design |
-| `alterlab-vcd-poster-designer` | PosterDesigner | Poster design, visual campaigns |
-| `alterlab-vcd-motion-graphics` | MotionGraphicsDesigner | Motion graphics, title sequences, kinetic type |
-| `alterlab-vcd-ui-designer` | UIDesigner | UI design, design systems, Figma workflows |
-| `alterlab-vcd-color-theorist` | ColorTheorist | Color theory, palettes, accessibility |
-| `alterlab-vcd-packaging` | PackagingDesigner | Packaging design, structural design, dielines |
-| `alterlab-vcd-photo-editor` | PhotoEditor | Photo editing, retouching, compositing |
-| `alterlab-vcd-design-critic` | DesignCritic | Design critique, visual analysis, history |
-| `alterlab-vcd-exhibition` | ExhibitionDesigner | Exhibition design, wayfinding, spatial graphics |
+| # | Skill | Agent | What It Does |
+|:---:|:---|:---|:---|
+| 1 | **Brand Identity** | BrandIdentityDesigner | Brand identity systems, logo design, guidelines |
+| 2 | **Typographer** | Typographer | Typography, type pairing, hierarchy |
+| 3 | **Layout Designer** | LayoutDesigner | Page layout, grid systems, editorial design |
+| 4 | **Infographic** | InfographicDesigner | Data visualization, infographic design |
+| 5 | **Poster Designer** | PosterDesigner | Poster design, visual campaigns |
+| 6 | **Motion Graphics** | MotionGraphicsDesigner | Motion graphics, title sequences, kinetic type |
+| 7 | **UI Designer** | UIDesigner | UI design, design systems, Figma workflows |
+| 8 | **Color Theorist** | ColorTheorist | Color theory, palettes, accessibility |
+| 9 | **Packaging** | PackagingDesigner | Packaging design, structural design, dielines |
+| 10 | **Photo Editor** | PhotoEditor | Photo editing, retouching, compositing |
+| 11 | **Design Critic** | DesignCritic | Design critique, visual analysis, history |
+| 12 | **Exhibition** | ExhibitionDesigner | Exhibition design, wayfinding, spatial graphics |
 
 </details>
 
+### 📚 RMA — Research Methods & Academic Writing (12 Skills)
+
 <details>
-<summary><strong>📚 RMA — Research Methods & Academic Writing (12 Skills)</strong></summary>
+<summary><b>Click to expand full RMA skills list</b></summary>
+<br>
 
-<br/>
-
-| Skill | Agent | What It Does |
-|:------|:------|:-------------|
-| `alterlab-rma-literature-reviewer` | LiteratureReviewer | Systematic reviews, annotated bibliographies |
-| `alterlab-rma-research-designer` | ResearchDesigner | Research design, methodology selection |
-| `alterlab-rma-survey-builder` | SurveyBuilder | Survey design, questionnaire construction |
-| `alterlab-rma-qualitative-coder` | QualitativeCoder | Thematic analysis, grounded theory coding |
-| `alterlab-rma-statistics-guide` | StatisticsGuide | SPSS/R, hypothesis testing, effect sizes |
-| `alterlab-rma-thesis-architect` | ThesisArchitect | Thesis structure, defense preparation |
-| `alterlab-rma-citation-manager` | CitationManager | APA/MLA/Chicago, Zotero/Mendeley |
-| `alterlab-rma-abstract-writer` | AbstractWriter | Academic abstracts, IMRAD, keywords |
-| `alterlab-rma-proposal-writer` | ProposalWriter | Research/grant proposals, ethics applications |
-| `alterlab-rma-content-analyst` | ContentAnalyst | Content analysis, coding schemes, framing |
-| `alterlab-rma-interview-analyst` | InterviewAnalyst | Interview methodology, IPA, focus groups |
-| `alterlab-rma-academic-writer` | AcademicWriter | Scholarly writing, peer review response |
+| # | Skill | Agent | What It Does |
+|:---:|:---|:---|:---|
+| 1 | **Literature Reviewer** | LiteratureReviewer | Systematic reviews, annotated bibliographies |
+| 2 | **Research Designer** | ResearchDesigner | Research design, methodology selection |
+| 3 | **Survey Builder** | SurveyBuilder | Survey design, questionnaire construction |
+| 4 | **Qualitative Coder** | QualitativeCoder | Thematic analysis, grounded theory coding |
+| 5 | **Statistics Guide** | StatisticsGuide | SPSS/R, hypothesis testing, effect sizes |
+| 6 | **Thesis Architect** | ThesisArchitect | Thesis structure, defense preparation |
+| 7 | **Citation Manager** | CitationManager | APA/MLA/Chicago, Zotero/Mendeley |
+| 8 | **Abstract Writer** | AbstractWriter | Academic abstracts, IMRAD, keywords |
+| 9 | **Proposal Writer** | ProposalWriter | Research/grant proposals, ethics applications |
+| 10 | **Content Analyst** | ContentAnalyst | Content analysis, coding schemes, framing |
+| 11 | **Interview Analyst** | InterviewAnalyst | Interview methodology, IPA, focus groups |
+| 12 | **Academic Writer** | AcademicWriter | Scholarly writing, peer review response |
 
 </details>
 
-<br/>
+<br>
 
 ---
-
-<br/>
 
 ## 🔬 How Skills Work
 
@@ -293,112 +336,103 @@ Each skill is a structured prompt in Markdown format. When loaded into a Claude 
 | 🌐 | **Research-Driven Workflow** | Web search for current data before every deliverable |
 | 🎨 | **Craft Principles** | Opinionated expert knowledge, not generic advice |
 
-### Agentic Workflow
+> [!NOTE]
+> **Agentic Workflow:** Every skill follows this autonomous cycle — **Research** (search web for current data) → **Context** (read existing project files) → **Create** (write structured deliverable) → **Review** (assess quality & completeness) → **Present** (summarize + offer 3 next paths).
 
-Every skill follows this autonomous cycle:
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                                                         │
-│   1. 🔍 Research  →  Search web for current data        │
-│   2. 📂 Context   →  Read existing project files        │
-│   3. 📝 Create    →  Write structured deliverable       │
-│   4. 🔁 Review    →  Assess quality & completeness      │
-│   5. 🎯 Present   →  Summarize + offer 3 next paths    │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
-
-<br/>
-
----
-
-<br/>
+<br>
 
 ## 🗂️ Project Structure
 
 ```
 AlterLab-FC-Skills/
-│
-├── 📄 CLAUDE.md                          # Project instructions for Claude Code
-├── 📄 README.md                          # This file
-├── 📄 LICENSE                            # MIT License
-├── 📄 package.json                       # Project metadata
+├── 📄 CLAUDE.md                # Project instructions for Claude Code
+├── 📄 README.md                # This file
+├── 📄 LICENSE                  # MIT License
+├── 📄 package.json             # Project metadata
 │
 └── 📁 skills/
-    ├── 📁 pra/                           # 🎯 Public Relations & Advertising (12)
+    ├── 🎯 pra/                 # Public Relations & Advertising (12)
     │   ├── alterlab-pra-campaign-strategist/
     │   │   └── SKILL.md
     │   └── ...
-    ├── 📁 cdm/                           # 🎬 Cinema & Digital Media (12)
+    ├── 🎬 cdm/                 # Cinema & Digital Media (12)
     │   ├── alterlab-cdm-screenwriter/
     │   │   └── SKILL.md
     │   └── ...
-    ├── 📁 nmc/                           # 🌐 New Media & Communication (12)
+    ├── 🌐 nmc/                 # New Media & Communication (12)
     │   ├── alterlab-nmc-podcast-producer/
     │   │   └── SKILL.md
     │   └── ...
-    ├── 📁 genai/                         # 🤖 Generative AI Production (12)
+    ├── 🤖 genai/               # Generative AI Production (12)
     │   ├── alterlab-genai-text-to-image/
     │   │   └── SKILL.md
     │   └── ...
-    ├── 📁 vcd/                           # 🎨 Visual Communication Design (12)
+    ├── 🎨 vcd/                 # Visual Communication Design (12)
     │   ├── alterlab-vcd-brand-identity/
     │   │   └── SKILL.md
     │   └── ...
-    └── 📁 rma/                           # 📚 Research Methods & Academic Writing (12)
+    └── 📚 rma/                 # Research Methods & Academic Writing (12)
         ├── alterlab-rma-literature-reviewer/
         │   └── SKILL.md
         └── ...
 ```
 
-<br/>
-
----
-
-<br/>
+<br>
 
 ## 🤝 Contributing
 
-PRs welcome! To improve a skill:
+PRs welcome! See the contribution workflow below:
 
 ```bash
 git checkout -b improve/pra-campaign-strategist
-
 # Edit skills/pra/alterlab-pra-campaign-strategist/SKILL.md
-
 git commit -m "improve: alterlab-pra-campaign-strategist — better budget allocation models"
 git push origin improve/pra-campaign-strategist
 ```
 
-All skills follow the **AlterLab NEXUS skill architecture**. See `CLAUDE.md` for the mandatory template and format rules.
+> All skills follow the **AlterLab NEXUS skill architecture**. See [`CLAUDE.md`](CLAUDE.md) for the mandatory template and format rules.
 
-<br/>
+**Quick ways to contribute:**
 
----
+- 🛠️ Improve an existing skill with better frameworks or templates
+- ✨ Create a new skill following the NEXUS architecture
+- 🐛 Report issues or suggest improvements
+- 📚 Add examples or use cases to documentation
 
-<br/>
+<br>
 
 ## 📜 License
 
-**MIT** — Free to use, modify, and distribute.
+This project is licensed under the **[MIT License](LICENSE)**.
 
-<br/>
+```
+MIT — Free to use, modify, and distribute.
+```
 
----
+<br>
+
+## 🙏 Credits
 
 <div align="center">
 
-<br/>
+<b>Built by Cem Ipek at <a href="https://github.com/AlterLab-IEU">AlterLab Creative Technologies Laboratory</a></b>
 
-**Built by [Cem Ipek](https://github.com/kepimec)** at **[AlterLab Creative Technologies Laboratory](https://github.com/AlterLab-IEU)**
+<br><br>
 
-Powered by **AlterLab**
+<b>72 skills · 6 departments · 1 prompt away from expert-level creative production</b>
 
-<br/>
+<br><br>
 
-<sub>If you find these skills useful, consider giving the repo a ⭐</sub>
+<hr>
 
-<br/>
+<sub>If you find this project useful, please consider giving it a ⭐</sub>
+
+<br>
+
+<a href="#">⬆ Back to Top</a>
 
 </div>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,5&height=100&section=footer" width="100%" alt="Footer">
