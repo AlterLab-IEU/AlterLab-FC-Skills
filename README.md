@@ -393,7 +393,7 @@ All skills follow the **AlterLab NEXUS skill architecture**. See `CLAUDE.md` for
 
 **Built by [Cem Ipek](https://github.com/kepimec)** at **[AlterLab Creative Technologies Laboratory](https://github.com/AlterLab-IEU)**
 
-Powered by the **AlterLab NEXUS** skill architecture
+Powered by **AlterLab**
 
 <br/>
 
