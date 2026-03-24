@@ -1,7 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,5&height=180&section=header&text=AlterLab%20FC%20Skills&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Transform%20Claude%20into%20Your%20Creative%20Production%20Expert&descSize=16&descAlignY=52" width="100%" alt="AlterLab FC Skills">
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,5&height=180&section=header&text=&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Transform%20Claude%20into%20Your%20Creative%20Production%20Expert&descSize=16&descAlignY=52" width="100%" alt="AlterLab FC Skills">
+<h1><img src="https://capsule-render.vercel.app/api?type=transparent&height=80&section=header&text=Alter&fontColor=ffffff&fontSize=60&fontAlignY=65&fontAlign=70&animation=fadeIn&width=200" height="50" alt="Alter"/><img src="https://capsule-render.vercel.app/api?type=transparent&height=80&section=header&text=Lab&fontColor=E8A817&fontSize=60&fontAlignY=65&fontAlign=30&animation=fadeIn&width=150" height="50" alt="Lab"/> FC Skills</h1>
 <br>
 
 <a href="skills/"><img src="https://img.shields.io/badge/Skills-72-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white" alt="Skills"></a>
@@ -16,30 +16,30 @@
 
 <br><br>
 
-<h3>🎓 72 Agentic Claude AI Skills for Communication Students</h3>
-<p><em>Purpose-built autonomous agents across 6 departments — from PR & Advertising to GenAI Production</em></p>
+<h3>🎓 72 Agentic Claude AI Skills for Communication Students</h3>h3>
+<p><em>Purpose-built autonomous agents across 6 departments — from PR & Advertising to GenAI Production</em>em></p>p>
 
 <p>
-  <b>PR & Advertising</b> · <b>Cinema & Digital Media</b> · <b>New Media</b> · <b>GenAI Production</b> · <b>Visual Communication</b> · <b>Research Methods</b>
-</p>
+  <b>PR & Advertising</b>b> · <b>Cinema & Digital Media</b>b> · <b>New Media</b>b> · <b>GenAI Production</b>b> · <b>Visual Communication</b>b> · <b>Research Methods</b>b>
+</p>p>
 
 <p>
-  <a href="skills/"><b>Explore Skills »</b></a> · 
-  <a href="#-quick-start">Quick Start</a> · 
-  <a href="#%EF%B8%8F-department-overview">Departments</a> · 
-  <a href="#-full-skill-catalog">Skill Catalog</a> · 
-  <a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/issues">Report Bug</a>
-</p>
+  <a href="skills/"><b>Explore Skills »</b>b></a>a> · 
+  <a href="#-quick-start">Quick Start</a>a> · 
+  <a href="#%EF%B8%8F-department-overview">Departments</a>a> · 
+  <a href="#-full-skill-catalog">Skill Catalog</a>a> · 
+  <a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/issues">Report Bug</a>a>
+</p>p>
 
 <br>
 
 <hr>
 
 <table><tr><td>
-  <b>Built by</b> <a href="https://github.com/AlterLab-IEU"><b>AlterLab Creative Technologies Laboratory</b></a>
+  <b>Built by</b>b> <a href="https://github.com/AlterLab-IEU"><b>AlterLab Creative Technologies Laboratory</b>b></a>a>
   <br><br>
-  <em>Drop into <a href="https://claude.ai">Claude Projects</a> and start creating.</em>
-</td></tr></table>
+  <em>Drop into <a href="https://claude.ai">Claude Projects</a>a> and start creating.</em>em>
+</td>td></tr>tr></table>table>
 
 </div>
 
@@ -51,35 +51,35 @@
   <table>
     <tr>
       <td align="center" width="25%">
-        <h3>🔍</h3>
-        <h3>Research First</h3>
-        <p>Search the web for current<br>data, trends, and benchmarks<br>before creating anything</p>
-      </td>
+        <h3>🔍</h3>h3>
+        <h3>Research First</h3>h3>
+        <p>Search the web for current<br>data, trends, and benchmarks<br>before creating anything</p>p>
+      </td>td>
   <td align="center" width="25%">
-  <h3>📝</h3>
-  <h3>Real Deliverables</h3>
-  <p>Write production-ready files<br>— scripts, briefs, reports —<br>directly to your project</p>
-  </td>
+  <h3>📝</h3>h3>
+  <h3>Real Deliverables</h3>h3>
+  <p>Write production-ready files<br>— scripts, briefs, reports —<br>directly to your project</p>p>
+  </td>td>
   <td align="center" width="25%">
-  <h3>🔁</h3>
-  <h3>Self-Review</h3>
-  <p>Re-read their own output<br>and assess quality before<br>presenting results</p>
-  </td>
+  <h3>🔁</h3>h3>
+  <h3>Self-Review</h3>h3>
+  <p>Re-read their own output<br>and assess quality before<br>presenting results</p>p>
+  </td>td>
   <td align="center" width="25%">
-  <h3>🎯</h3>
-  <h3>Iterate</h3>
-  <p>Offer specific refinement<br>directions after every<br>deliverable</p>
-  </td>
-    </tr>
-  </table>
-</div>
+  <h3>🎯</h3>h3>
+  <h3>Iterate</h3>h3>
+  <p>Offer specific refinement<br>directions after every<br>deliverable</p>p>
+  </td>td>
+    </tr>tr>
+  </table>table>
+</div>div>
 
 <br>
 
 ## 📋 Table of Contents
 
 <details open>
-  <summary><b>Click to expand / collapse</b></summary>
+  <summary><b>Click to expand / collapse</b>b></summary>summary>
   <br>
 
   - [🧬 What Is This?](#-what-is-this)
@@ -182,7 +182,7 @@
                       ### 🎯 PRA — Public Relations & Advertising (12 Skills)
 
                       <details>
-                        <summary><b>Click to expand full PRA skills list</b></summary>
+                        <summary><b>Click to expand full PRA skills list</b>b></summary>summary>
                       <br>
                       
                       | # | Skill | Agent | What It Does |
@@ -205,7 +205,7 @@
                       ### 🎬 CDM — Cinema & Digital Media (12 Skills)
 
                       <details>
-                        <summary><b>Click to expand full CDM skills list</b></summary>
+                        <summary><b>Click to expand full CDM skills list</b>b></summary>summary>
                         <br>
                    
                         | # | Skill | Agent | What It Does |
@@ -228,7 +228,7 @@
                       ### 🌐 NMC — New Media & Communication (12 Skills)
                    
                       <details>
-                        <summary><b>Click to expand full NMC skills list</b></summary>
+                        <summary><b>Click to expand full NMC skills list</b>b></summary>summary>
                         <br>
                    
                         | # | Skill | Agent | What It Does |
@@ -251,7 +251,7 @@
                       ### 🤖 GenAI — Generative AI Production (12 Skills)
                    
                       <details>
-                        <summary><b>Click to expand full GenAI skills list</b></summary>
+                        <summary><b>Click to expand full GenAI skills list</b>b></summary>summary>
                         <br>
                    
                         | # | Skill | Agent | Platform | What It Does |
@@ -274,7 +274,7 @@
                       ### 🎨 VCD — Visual Communication Design (12 Skills)
                    
                       <details>
-                        <summary><b>Click to expand full VCD skills list</b></summary>
+                        <summary><b>Click to expand full VCD skills list</b>b></summary>summary>
                         <br>
                    
                         | # | Skill | Agent | What It Does |
@@ -297,7 +297,7 @@
                       ### 📚 RMA — Research Methods & Academic Writing (12 Skills)
                    
                       <details>
-                        <summary><b>Click to expand full RMA skills list</b></summary>
+                        <summary><b>Click to expand full RMA skills list</b>b></summary>summary>
                         <br>
                    
                         | # | Skill | Agent | What It Does |
@@ -434,3 +434,9 @@
                         <br>
                    
                         <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,5&height=100&section=footer" width="100%" alt="Footer">
+                      </summary>
+                      </details>
+</p></p>
+</td></tr>
+</p>
+</p></h3>
