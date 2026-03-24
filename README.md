@@ -80,7 +80,7 @@
   <br>
 
   - [🧬 What Is This?](#-what-is-this)
-    - [⚡ What Makes These Skills Different?](#-what-makes-these-skills-different)
+  - [⚡ What Makes These Skills Different?](#-what-makes-these-skills-different)
   - [🗂️ Department Overview](#%EF%B8%8F-department-overview)
   - [🚀 Quick Start](#-quick-start)
   - [📦 Department Packs](#-department-packs)
