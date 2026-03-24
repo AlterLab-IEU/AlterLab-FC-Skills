@@ -1,7 +1,5 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,5&height=180&section=header&text=&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Transform%20Claude%20into%20Your%20Creative%20Production%20Expert&descSize=16&descAlignY=52" width="100%" alt="AlterLab FC Skills">
-<h1><img src="https://capsule-render.vercel.app/api?type=transparent&height=80&section=header&text=Alter&fontColor=ffffff&fontSize=60&fontAlignY=65&fontAlign=70&animation=fadeIn&width=200" height="50" alt="Alter"/><img src="https://capsule-render.vercel.app/api?type=transparent&height=80&section=header&text=Lab&fontColor=E8A817&fontSize=60&fontAlignY=65&fontAlign=30&animation=fadeIn&width=150" height="50" alt="Lab"/> FC Skills</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,5&height=180&section=header&text=AlterLab%20FC%20Skills&fontSize=42&fontColor=E8A817&animation=twinkling&fontAlignY=32&desc=Transform%20Claude%20into%20Your%20Creative%20Production%20Expert&descSize=16&descAlignY=52" width="100%" alt="AlterLab FC Skills">
 <br>
 
 <a href="skills/"><img src="https://img.shields.io/badge/Skills-72-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white" alt="Skills"></a>
