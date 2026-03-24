@@ -102,11 +102,11 @@ A collection of **72 autonomous Claude AI skills** for communication students �
 Each skill transforms Claude into an **agentic domain expert** that researches the web, reads your project files, creates production-ready deliverables, self-reviews its own output, and iterates — not just advises.
 
 > [!TIP]
-> > **How it works:** Each skill is a structured `.md` prompt file. Drop it into a Claude Project or Claude Code, and Claude instantly becomes your creative production expert — with real industry frameworks, professional output templates, and deep domain knowledge.
-> >
-> > <br>
+> **How it works:** Each skill is a structured `.md` prompt file. Drop it into a Claude Project or Claude Code, and Claude instantly becomes your creative production expert — with real industry frameworks, professional output templates, and deep domain knowledge.
+>
+> <br>
 
-## ⚡ What Makes These Skills Different?
+### ⚡ What Makes These Skills Different?
 
 These aren't chatbot personas. They're **autonomous agents** that execute a full research → create → review cycle:
 
@@ -332,9 +332,9 @@ Each skill is a structured prompt in Markdown format. When loaded into a Claude 
 | 🎨 | **Craft Principles** | Opinionated expert knowledge, not generic advice |
 
 > [!NOTE]
-> > **Agentic Workflow:** Every skill follows this autonomous cycle — **Research** (search web for current data) → **Context** (read existing project files) → **Create** (write structured deliverable) → **Review** (assess quality & completeness) → **Present** (summarize + offer 3 next paths).
-> >
-> > <br>
+> **Agentic Workflow:** Every skill follows this autonomous cycle — **Research** (search web for current data) → **Context** (read existing project files) → **Create** (write structured deliverable) → **Review** (assess quality & completeness) → **Present** (summarize + offer 3 next paths).
+>
+> <br>
 
 ## 🗂️ Project Structure
 
