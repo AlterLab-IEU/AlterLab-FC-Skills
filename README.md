@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,5&height=180&section=header&text=AlterLab%20FC%20Skills&fontSize=42&fontColor=E8A817&animation=twinkling&fontAlignY=32&desc=Transform%20Claude%20into%20Your%20Creative%20Production%20Expert&descSize=16&descAlignY=52" width="100%" alt="AlterLab FC Skills">
+<img src=".github/header-banner.svg" width="100%" alt="AlterLab FC Skills">
 <br>
 
 <a href="skills/"><img src="https://img.shields.io/badge/Skills-72-7C3AED?style=for-the-badge&logo=bookstack&logoColor=white" alt="Skills"></a>
