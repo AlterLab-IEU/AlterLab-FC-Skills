@@ -13,31 +13,30 @@
 <a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/Release-v1.2.0-06B6D4?style=for-the-badge&logo=github&logoColor=white" alt="Release"></a>
 
 <br><br>
-
-<h3>🎓 72 Agentic Claude AI Skills for Communication Students</h3>h3>
-<p><em>Purpose-built autonomous agents across 6 departments — from PR & Advertising to GenAI Production</em>em></p>p>
-
-<p>
-  <b>PR & Advertising</b>b> · <b>Cinema & Digital Media</b>b> · <b>New Media</b>b> · <b>GenAI Production</b>b> · <b>Visual Communication</b>b> · <b>Research Methods</b>b>
-</p>p>
+<h3>🎓 72 Agentic Claude AI Skills for Communication Students</h3>
+<p><em>Purpose-built autonomous agents across 6 departments — from PR & Advertising to GenAI Production</em></p>
 
 <p>
-  <a href="skills/"><b>Explore Skills »</b>b></a>a> · 
-  <a href="#-quick-start">Quick Start</a>a> · 
-  <a href="#%EF%B8%8F-department-overview">Departments</a>a> · 
-  <a href="#-full-skill-catalog">Skill Catalog</a>a> · 
-  <a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/issues">Report Bug</a>a>
-</p>p>
+  <b>PR & Advertising</b> · <b>Cinema & Digital Media</b> · <b>New Media</b> · <b>GenAI Production</b> · <b>Visual Communication</b> · <b>Research Methods</b>
+</p>
+
+<p>
+  <a href="skills/"><b>Explore Skills »</b></a> · 
+  <a href="#-quick-start">Quick Start</a> · 
+  <a href="#%EF%B8%8F-department-overview">Departments</a> · 
+  <a href="#-full-skill-catalog">Skill Catalog</a> · 
+  <a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/issues">Report Bug</a>
+</p>
 
 <br>
 
 <hr>
 
 <table><tr><td>
-  <b>Built by</b>b> <a href="https://github.com/AlterLab-IEU"><b>AlterLab Creative Technologies Laboratory</b>b></a>a>
+  <b>Built by</b> <a href="https://github.com/AlterLab-IEU"><b>AlterLab Creative Technologies Laboratory</b></a>
   <br><br>
-  <em>Drop into <a href="https://claude.ai">Claude Projects</a>a> and start creating.</em>em>
-</td>td></tr>tr></table>table>
+  <em>Drop into <a href="https://claude.ai">Claude Projects</a> and start creating.</em>
+</td></tr></table>
 
 </div>
 
@@ -49,35 +48,35 @@
   <table>
     <tr>
       <td align="center" width="25%">
-        <h3>🔍</h3>h3>
-        <h3>Research First</h3>h3>
-        <p>Search the web for current<br>data, trends, and benchmarks<br>before creating anything</p>p>
-      </td>td>
+        <h3>🔍</h3>
+        <h3>Research First</h3>
+        <p>Search the web for current<br>data, trends, and benchmarks<br>before creating anything</p>
+      </td>
   <td align="center" width="25%">
-  <h3>📝</h3>h3>
-  <h3>Real Deliverables</h3>h3>
-  <p>Write production-ready files<br>— scripts, briefs, reports —<br>directly to your project</p>p>
-  </td>td>
+  <h3>📝</h3>
+  <h3>Real Deliverables</h3>
+  <p>Write production-ready files<br>— scripts, briefs, reports —<br>directly to your project</p>
+  </td>
   <td align="center" width="25%">
-  <h3>🔁</h3>h3>
-  <h3>Self-Review</h3>h3>
-  <p>Re-read their own output<br>and assess quality before<br>presenting results</p>p>
-  </td>td>
+  <h3>🔁</h3>
+  <h3>Self-Review</h3>
+  <p>Re-read their own output<br>and assess quality before<br>presenting results</p>
+  </td>
   <td align="center" width="25%">
-  <h3>🎯</h3>h3>
-  <h3>Iterate</h3>h3>
-  <p>Offer specific refinement<br>directions after every<br>deliverable</p>p>
-  </td>td>
-    </tr>tr>
-  </table>table>
-</div>div>
+  <h3>🎯</h3>
+  <h3>Iterate</h3>
+  <p>Offer specific refinement<br>directions after every<br>deliverable</p>
+  </td>
+    </tr>
+  </table>
+</div>
 
 <br>
 
 ## 📋 Table of Contents
 
 <details open>
-  <summary><b>Click to expand / collapse</b>b></summary>summary>
+  <summary><b>Click to expand / collapse</b></summary>
   <br>
 
   - [🧬 What Is This?](#-what-is-this)
@@ -180,7 +179,7 @@
                       ### 🎯 PRA — Public Relations & Advertising (12 Skills)
 
                       <details>
-                        <summary><b>Click to expand full PRA skills list</b>b></summary>summary>
+                        <summary><b>Click to expand full PRA skills list</b></summary>
                       <br>
                       
                       | # | Skill | Agent | What It Does |
@@ -203,7 +202,7 @@
                       ### 🎬 CDM — Cinema & Digital Media (12 Skills)
 
                       <details>
-                        <summary><b>Click to expand full CDM skills list</b>b></summary>summary>
+                        <summary><b>Click to expand full CDM skills list</b></summary>
                         <br>
                    
                         | # | Skill | Agent | What It Does |
@@ -226,7 +225,7 @@
                       ### 🌐 NMC — New Media & Communication (12 Skills)
                    
                       <details>
-                        <summary><b>Click to expand full NMC skills list</b>b></summary>summary>
+                        <summary><b>Click to expand full NMC skills list</b></summary>
                         <br>
                    
                         | # | Skill | Agent | What It Does |
@@ -249,7 +248,7 @@
                       ### 🤖 GenAI — Generative AI Production (12 Skills)
                    
                       <details>
-                        <summary><b>Click to expand full GenAI skills list</b>b></summary>summary>
+                        <summary><b>Click to expand full GenAI skills list</b></summary>
                         <br>
                    
                         | # | Skill | Agent | Platform | What It Does |
@@ -272,7 +271,7 @@
                       ### 🎨 VCD — Visual Communication Design (12 Skills)
                    
                       <details>
-                        <summary><b>Click to expand full VCD skills list</b>b></summary>summary>
+                        <summary><b>Click to expand full VCD skills list</b></summary>
                         <br>
                    
                         | # | Skill | Agent | What It Does |
@@ -295,7 +294,7 @@
                       ### 📚 RMA — Research Methods & Academic Writing (12 Skills)
                    
                       <details>
-                        <summary><b>Click to expand full RMA skills list</b>b></summary>summary>
+                        <summary><b>Click to expand full RMA skills list</b></summary>
                         <br>
                    
                         | # | Skill | Agent | What It Does |
