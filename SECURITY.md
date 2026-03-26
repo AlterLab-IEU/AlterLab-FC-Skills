@@ -4,7 +4,7 @@
 
 If you discover a security vulnerability in AlterLab FC Skills, please report it responsibly.
 
-**Email:** Alterlab.ieu@gmail.com or alterlab@izmirekonomi.edu.tr
+**Report:** Report security issues by opening a private security advisory on this repository.
 
 Please include:
 

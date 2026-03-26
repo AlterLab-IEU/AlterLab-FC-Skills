@@ -24,7 +24,7 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const SKILLS_DIR = path.join(ROOT, "skills");
 
-const DEPARTMENTS = ["pra", "cdm", "nmc", "genai"];
+const DEPARTMENTS = ["pra", "cdm", "nmc", "genai", "vcd", "rma"];
 
 const EXPECTED_EMOJI_ORDER = [
   "\u{1F9E0}", // 🧠
@@ -69,10 +69,17 @@ function findSkillFiles() {
     const topEntries = fs.readdirSync(SKILLS_DIR, { withFileTypes: true });
     for (const entry of topEntries) {
       if (!entry.isDirectory() || DEPARTMENTS.includes(entry.name)) continue;
-      const subEntries = fs.readdirSync(path.join(SKILLS_DIR, entry.name), { withFileTypes: true });
+      const subEntries = fs.readdirSync(path.join(SKILLS_DIR, entry.name), {
+        withFileTypes: true,
+      });
       for (const sub of subEntries) {
         if (!sub.isDirectory()) continue;
-        const skillFile = path.join(SKILLS_DIR, entry.name, sub.name, "SKILL.md");
+        const skillFile = path.join(
+          SKILLS_DIR,
+          entry.name,
+          sub.name,
+          "SKILL.md",
+        );
         if (fs.existsSync(skillFile)) {
           skills.push({
             dept: entry.name,
@@ -161,7 +168,9 @@ function validateSkill(skill) {
     if (fm.name) {
       const cleanName = fm.name.replace(/^["']|["']$/g, "");
       if (cleanName !== skill.folder) {
-        warnings.push(`Frontmatter name "${cleanName}" does not match folder "${skill.folder}"`);
+        warnings.push(
+          `Frontmatter name "${cleanName}" does not match folder "${skill.folder}"`,
+        );
       }
     }
   }
@@ -179,7 +188,9 @@ function validateSkill(skill) {
       if (idx === -1) {
         errors.push(`Unexpected emoji header: ${emoji}`);
       } else if (idx <= lastIndex) {
-        errors.push(`Emoji headers out of order: ${emoji} appears after ${EXPECTED_EMOJI_ORDER[lastIndex]}`);
+        errors.push(
+          `Emoji headers out of order: ${emoji} appears after ${EXPECTED_EMOJI_ORDER[lastIndex]}`,
+        );
         break;
       } else {
         lastIndex = idx;
@@ -202,7 +213,9 @@ function validateSkill(skill) {
 
   // 5. Folder naming
   if (!checkFolderNaming(skill.folder)) {
-    errors.push(`Folder name "${skill.folder}" does not match pattern alterlab-{dept}-{name}`);
+    errors.push(
+      `Folder name "${skill.folder}" does not match pattern alterlab-{dept}-{name}`,
+    );
   }
 
   return { errors, warnings, lineCount };
@@ -297,13 +310,17 @@ function main() {
     const icon = hasErrors ? "x" : "v";
 
     if (hasErrors) {
-      console.log(`\n  [${icon}] ${status}  ${skill.folder} (${result.lineCount} lines)`);
+      console.log(
+        `\n  [${icon}] ${status}  ${skill.folder} (${result.lineCount} lines)`,
+      );
       for (const err of result.errors) {
         console.log(`         - ${err}`);
       }
       failed++;
     } else {
-      console.log(`  [${icon}] ${status}  ${skill.folder} (${result.lineCount} lines)`);
+      console.log(
+        `  [${icon}] ${status}  ${skill.folder} (${result.lineCount} lines)`,
+      );
       passed++;
     }
 
@@ -323,7 +340,9 @@ function main() {
   console.log(`  Warnings:     ${totalWarnings}`);
 
   if (skills.length < MIN_SKILL_COUNT) {
-    console.log(`\n  WARNING: Expected at least ${MIN_SKILL_COUNT} skills, found ${skills.length}`);
+    console.log(
+      `\n  WARNING: Expected at least ${MIN_SKILL_COUNT} skills, found ${skills.length}`,
+    );
     totalErrors++;
   }
 

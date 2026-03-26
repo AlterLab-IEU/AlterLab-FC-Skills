@@ -33,7 +33,7 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders at **Alterlab.ieu@gmail.com** or **alterlab@izmirekonomi.edu.tr**. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by opening a GitHub issue on this repository. All complaints will be reviewed and investigated promptly and fairly.
 
 ## Attribution
 

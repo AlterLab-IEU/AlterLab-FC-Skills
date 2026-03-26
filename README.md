@@ -10,7 +10,7 @@
 <br>
 
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome-22C55E?style=for-the-badge&logo=githubactions&logoColor=white" alt="PRs Welcome"></a>
-<a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/Release-v1.2.0-06B6D4?style=for-the-badge&logo=github&logoColor=white" alt="Release"></a>
+<a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/Release-v1.0.0-06B6D4?style=for-the-badge&logo=github&logoColor=white" alt="Release"></a>
 
 <br><br>
 <h3>🎓 72 Agentic Claude AI Skills for Communication Students</h3>
@@ -431,9 +431,3 @@ MIT — Free to use, modify, and distribute.
   <br>
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,5&height=100&section=footer" width="100%" alt="Footer">
-</summary>
-</details>
-</p></p>
-</td></tr>
-</p>
-</p></h3>

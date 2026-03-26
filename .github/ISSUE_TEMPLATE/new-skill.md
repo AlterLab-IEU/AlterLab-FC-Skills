@@ -8,7 +8,7 @@ assignees: ""
 
 ## Skill Details
 
-- **Department**: <!-- pra / cdm / nmc / genai -->
+- **Department**: <!-- pra / cdm / nmc / genai / vcd / rma -->
 - **Skill name**: `alterlab-{dept}-{name}`
 - **Agent name**: <!-- CamelCase, e.g. CampaignStrategist -->
 - **Core domain**: <!-- One-line description of what this agent does -->
@@ -50,6 +50,6 @@ assignees: ""
 ## Checklist
 
 - [ ] Skill name follows `alterlab-{dept}-{name}` convention
-- [ ] No overlap with existing 48 skills
+- [ ] No overlap with existing 72 skills
 - [ ] Domain is specific enough to be useful, broad enough to justify a dedicated skill
 - [ ] 5+ example prompts provided

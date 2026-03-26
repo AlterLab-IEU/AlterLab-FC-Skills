@@ -42,26 +42,18 @@ Every skill must have a SKILL.md file with YAML frontmatter followed by the skil
 ```yaml
 ---
 name: "alterlab-{dept}-{name}"
-description: "One-line description of what the skill does."
-version: "1.0"
-license: "MIT"
-metadata:
-  skill-author: "AlterLab"
-  department: "{department}"
-  tags:
-    - tag1
-    - tag2
+description: >
+  This skill should be used when the user asks about "{trigger phrase 1}", "{trigger phrase 2}",
+  "{trigger phrase 3}", "act as {role}", "{role} mode",
+  or needs expertise in {one-line capability summary}.
+  Part of the AlterLab FC Skills collection ({Department} department).
 ---
 ```
 
 **Required frontmatter fields:**
 
-- `name` — must match `alterlab-{dept}-{name}` pattern
-- `description` — concise, one-line summary
-- `version` — semver format
-- `license` — must be MIT
-- `metadata.skill-author` — must be AlterLab
-- `metadata.department` — must match the parent folder name
+- `name` — must match `alterlab-{dept}-{name}` pattern and the parent folder name
+- `description` — multi-line trigger description using `>` folded scalar; include many natural-language trigger phrases so the skill activates readily
 
 ## Pull Request Process
 

@@ -10,7 +10,7 @@
 
 ## Checklist
 
-- [ ] Skill follows the [mandatory template](./SKILL_TEMPLATE.md)
+- [ ] Skill follows the [mandatory template](./CLAUDE.md)
 - [ ] No university-specific references (grep for "ieu", "izmir", "ekonomi")
 - [ ] Line count is between 150-300 lines
 - [ ] YAML frontmatter is valid (name + description fields present)
