@@ -390,11 +390,9 @@ git push origin improve/pra-campaign-strategist
 > **Quick ways to contribute:**
 >
 > - 🛠️ Improve an existing skill with better frameworks or templates
-> - - ✨ Create a new skill following the NEXUS architecture
->   - - 🐛 Report issues or suggest improvements
->     - - 📚 Add examples or use cases to documentation
->      
->       - <br>
+> - ✨ Create a new skill following the NEXUS architecture
+> - 🐛 Report issues or suggest improvements
+> - 📚 Add examples or use cases to documentation
 
 ## 📜 License
 
