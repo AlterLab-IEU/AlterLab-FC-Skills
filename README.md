@@ -10,7 +10,12 @@
 <br>
 
 <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome-22C55E?style=for-the-badge&logo=githubactions&logoColor=white" alt="PRs Welcome"></a>
-<a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/Release-v1.0.0-06B6D4?style=for-the-badge&logo=github&logoColor=white" alt="Release"></a>
+<a href="https://github.com/AlterLab-IEU/AlterLab-FC-Skills/releases/tag/v1.2.0"><img src="https://img.shields.io/badge/Release-v1.2.0-06B6D4?style=for-the-badge&logo=github&logoColor=white" alt="Release"></a>
+<a href="https://github.com/BehiSecc/awesome-claude-skills"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+
+<br>
+
+> 📢 **Featured in** [awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) (5.7k ⭐)
 
 <br><br>
 <h3>🎓 72 Agentic Claude AI Skills for Communication Students</h3>
@@ -373,6 +378,11 @@ AlterLab-FC-Skills/
 ```
 
 <br>
+
+## 🔗 Sister Projects
+
+- [AlterLab-Academic-Skills](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills) — 186+ academic research skills across 13 domains
+- [AlterLab_GameForge](https://github.com/AlterLab-IEU/AlterLab_GameForge) — 34 game dev skills from concept to launch
 
 ## 🤝 Contributing
 
